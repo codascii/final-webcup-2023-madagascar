@@ -123,36 +123,36 @@ const param = useRouter().query.name;
   return (
     <>
       <div className="details__thumb">
-        <Image src={data.photo} alt="details" className="img-fluid" />
+        <Image src={data?.photo} alt="details" className="img-fluid" />
       </div>
       <div className="content">
-        <h2 className="title1">{data.title}</h2>
+        <h2 className="title1">{data?.title}</h2>
         <p className="text1">
-          {data.details}
+          {data?.details}
         </p>
         <h3>Comportement à avoir</h3>
-        <ul className="machine__listing">
+        <ul className="machine__listing">          
           <li>
             <span>1. </span>
             <span>
-             {data.behavior[0]}
+             {data?.behavior[0]}
             </span>
           </li>
           <li>
             <span>2.</span>
             <span>
-            {data.behavior[1]}
+            {data?.behavior[1]}
             </span>
           </li>
           <li>
             <span>3.</span>
             <span>
-            {data.behavior[2]}
+            {data?.behavior[2]}
             </span>
           </li>
         </ul>
         <p>
-          {data.behavior[3]}
+          {data?.behavior[3]}
         </p>
       </div>
     </>
