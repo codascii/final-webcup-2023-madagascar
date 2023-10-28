@@ -26,7 +26,7 @@ const MenuRight = ({ clss, setActive, active }) => {
         <button className="mode--toggle border" onClick={handleTheme}>
           <Image src={theme === "light" ? moon : sun} alt="icon" />
         </button>
-        <div className="search-button" role="tablist">
+        {/* <div className="search-button" role="tablist">
           <button className="nav-link">
             <span className="icons">
               <i className="material-symbols-outlined">search</i>
@@ -50,7 +50,7 @@ const MenuRight = ({ clss, setActive, active }) => {
         </div>
         <Link href="/signin" className="cmn--btn">
           <span>Signin</span>
-        </Link>
+        </Link> */}
       </div>
       <div
         className={`header-bar d-lg-none ${active && "active"}`}

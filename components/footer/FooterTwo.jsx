@@ -18,13 +18,13 @@ const FooterTwo = () => {
             </Link>
             <ul className="f__three__link">
               <li>
-                <Link href="/about">About us</Link>
+                <Link href="/about">À propos de nous</Link>
               </li>
               <li>
                 <Link href="/faq">Faqs</Link>
               </li>
               <li>
-                <Link href="/services">Services</Link>
+                <Link href="/services">Liens Utile</Link>
               </li>
               <li>
                 <Link href="/pricing">Pricing Plan</Link>
@@ -42,7 +42,7 @@ const FooterTwo = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/" className="social__item social__itemtwo">
+                <Link href="/" className="^q">
                   <span className="icon">
                     <Image src={instagram} alt="svg" />
                   </span>
@@ -68,14 +68,14 @@ const FooterTwo = () => {
             <p>
               Copyright &copy;2023{" "}
               <Link href="/" className="intellicon">
-                Intellicon
+              Altesphere AI
               </Link>
-              . Designed By{" "}
+              .Conçus par{" "}
               <Link
                 href="https://themeforest.net/user/pixelaxis"
                 className="theme"
               >
-                Pixelaxis
+                HoumaDev RAIV
               </Link>
             </p>
           </div>

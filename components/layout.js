@@ -16,8 +16,8 @@ const Layout = ({ children }) => {
       {/* main */}
       {children}
 
-      {/* Subscribe */}
-      <Subscribe />
+      {/* Subscribe 
+      <Subscribe />*/}
 
       {/* Footer */}
       <FooterFour />

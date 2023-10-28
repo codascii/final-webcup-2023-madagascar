@@ -86,7 +86,7 @@ const Includeai = () => {
                   <Image src={robotic} alt="icon" />
                 </div>
                 <div className="content">
-                  <h4>Robotic Automation</h4>
+                  <h4>Sismomètres Avancés</h4>
                   <p>
                     Machine learning (ML), a fundamental concept of AI
                     research...
