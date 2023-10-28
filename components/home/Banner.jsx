@@ -39,7 +39,7 @@ const Banner = () => {
                   <div className="content__box">
                     <span className="d3 mb-0 text-white">Rester Informer</span>
                     <span className="d3 text-white">
-                      des <span className="theme">CATASTROPHES NATURELLES</span> grace à{" "}
+                      des <span className="theme">catastrophes naturelles</span> grace à{" "}
                       <span className="theme2">L'Intéligence Artificiel</span>
                     </span>
                     <p className="text-white">
