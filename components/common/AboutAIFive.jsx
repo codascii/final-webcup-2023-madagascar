@@ -17,7 +17,7 @@ const AboutAIFive = () => {
             <div className="about__content">
               <div className="section__header">
                 <h2 className="wow fadeInUp" data-wow-duration="2s">
-                L&pos;Indian Ocean Institut
+                L'Indian Ocean Institut
                 </h2>
                 <p className="wow fadeInUp" data-wow-duration="2.5s">
                 Au cours des quatre dernières décennies, le monde a connu une augmentation alarmante des catastrophes naturelles. Depuis 2012, chaque année, en moyenne, 700 événements destructeurs touchent notre planète. Inondations, tremblements de terre, tsunamis, éruptions volcaniques, méga-feux, tempêtes, ouragans, typhons, cyclones... la liste est longue et les conséquences dévastatrices.
