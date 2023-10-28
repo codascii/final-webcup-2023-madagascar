@@ -23,7 +23,7 @@ const FooterFour = () => {
                     </Link>
                   </div>
                   <p className="pb__20">
-                  AlteSphere est un algorithme révolutionnaire basé sur l'intelligence artificielle. En utilisant une combinaison de données provenant de sismomètres, satellites, ballons météorologiques et d'autres capteurs stratégiquement placés autour du globe.
+                  {"AlteSphere est un algorithme révolutionnaire basé sur l'intelligence artificielle. En utilisant une combinaison de données provenant de sismomètres, satellites, ballons météorologiques et d'autres capteurs stratégiquement placés autour du globe."}
                   </p>
                   <ul className="social">
                     <li>
@@ -114,7 +114,7 @@ const FooterFour = () => {
                     <Link href="https://www.accuweather.com/fr/mg/antananarivo/227088/weather-forecast/227088" className="link">
                     AccuWeather
                     </Link>
-                    <Link href="/signuhttps://www.wunderground.com/" className="link">
+                    <Link href="https://www.wunderground.com/" className="link">
                     Weather Underground 
                     </Link>
                   </div>
