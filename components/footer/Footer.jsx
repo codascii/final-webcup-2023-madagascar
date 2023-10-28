@@ -43,11 +43,11 @@ const Footer = () => {
                     <Link href="/about" className="link">
                     À propos de nous
                     </Link>
-                    <Link href="/studies-one" className="link">
-                      Projects
+                    <Link href="/" className="link">
+                    Accueil
                     </Link>
-                    <Link href="/faq" className="link">
-                      Faqs
+                    <Link href="/" className="link">
+                
                     </Link>
                     <Link href="/blocks-working" className="link">
                       How it&#39;s Works
@@ -55,7 +55,7 @@ const Footer = () => {
                     <Link href="/pricing" className="link">
                       Pricing Plan
                     </Link>
-                    <Link href="/shop" className="link">
+                    <Link href="/maps" className="link">
                       Shop
                     </Link>
                   </div>
@@ -95,7 +95,7 @@ const Footer = () => {
                       <span className="icon">
                         <i className="material-symbols-outlined">AU</i>
                       </span>
-                      <span className="fcontact__content">(+262) 23 25 26</span>
+                      <span className="fcontact__content">0269123456</span>
                     </Link>
                     <Link href="/" className="footer__contact__items">
                       <span className="icon icontwo">
@@ -104,7 +104,7 @@ const Footer = () => {
                         </i>
                       </span>
                       <span className="fcontact__content">
-                        HoumaDevRaiv@mail.com
+                        contact@AlteSphere.com
                       </span>
                     </Link>
                     <Link href="/" className="footer__contact__items">
@@ -114,7 +114,8 @@ const Footer = () => {
                         </span>
                       </span>
                       <span className="fcontact__content">
-                      47 Rue des Marguerites,
+                      17 rue Kaweni 
+                      97600 Mayotte
                       </span>
                     </Link>
                   </div>
