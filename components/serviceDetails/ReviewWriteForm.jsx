@@ -1,0 +1,27 @@
+const ReviewWriteForm = () => {
+  return (
+    <form>
+      <div className="row g-4">
+        <div className="col-lg-6">
+          <input type="text" placeholder="Enter Your Name..." required />
+        </div>
+        <div className="col-lg-6">
+          <input type="email" placeholder="Enter Your Email..." required />
+        </div>
+        <div className="col-lg-12">
+          <textarea
+            className="form-control"
+            id="exampleFormControlTextarea1"
+            rows="4"
+            placeholder="Write a reviews..."
+          ></textarea>
+        </div>
+        <button type="submit" className="cmn--btn">
+          <span>Submit</span>
+        </button>
+      </div>
+    </form>
+  );
+};
+
+export default ReviewWriteForm;

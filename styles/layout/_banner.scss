@@ -1,0 +1,857 @@
+//Banner All Component Style Here
+
+//Defoult Banner
+.banner__section {
+  position: relative;
+  overflow: hidden;
+  .banner__bgmask {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .dark__mask,
+  .banner__mask {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .ball__element {
+    position: absolute;
+    bottom: 200px;
+    left: 40px;
+    opacity: 0.3;
+    animation: cir360 15s linear infinite;
+    @include breakpoint(max-md) {
+      left: 10px;
+      width: 60px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .light__element1 {
+    position: absolute;
+    left: 200px;
+    top: 40%;
+    animation: zmin 4s linear infinite;
+  }
+  .light__element2 {
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    animation: zmin2 5s linear infinite;
+  }
+  .light__element3 {
+    position: absolute;
+    left: 50%;
+    bottom: 35%;
+    animation: zmin3 8s linear infinite;
+    @include breakpoint(max-lg) {
+      display: none;
+    }
+  }
+  .light__element4 {
+    position: absolute;
+    right: 300px;
+    bottom: 35%;
+    animation: zmin3 8s linear infinite;
+    @include breakpoint(max-lg) {
+      display: none;
+    }
+  }
+  .light__element5 {
+    position: absolute;
+    right: 200px;
+    top: 140px;
+    animation: zmin 2s linear infinite;
+  }
+}
+.banner__wrapper {
+  padding: 140px 0 30px;
+  @include breakpoint(max-lg) {
+    padding: 130px 0 100px;
+  }
+  @include breakpoint(max-sm) {
+    padding: 130px 0 60px;
+  }
+}
+.banner__thumb {
+  position: relative;
+  &::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 0;
+    background: #3fca90;
+    opacity: 0.4;
+    filter: blur(150px);
+    width: 300px;
+    height: 400px;
+  }
+  .thumb {
+    position: relative;
+    animation: bns1 5s linear infinite;
+    @include breakpoint(max-sm) {
+      max-width: 350px;
+      margin: 0 auto;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .rocket__element {
+    position: absolute;
+    right: -280px;
+    top: 100px;
+    width: 250px;
+    animation: smothx 5s linear infinite;
+    @include breakpoint(max-xxl) {
+      width: 150px;
+      right: -140px;
+    }
+    @include breakpoint(max-xl) {
+      width: 150px;
+      right: -170px;
+    }
+    @include breakpoint(max-md) {
+      right: -200px;
+    }
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+}
+.banner__content {
+  position: relative;
+  padding: 80px 0 300px;
+
+  @include breakpoint(max-xxl) {
+    padding: 80px 0 200px;
+  }
+  @include breakpoint(max-xl) {
+    padding: 80px 0 150px;
+  }
+  @include breakpoint(max-lg) {
+    padding: 60px 0 0px;
+  }
+  .content__box {
+    position: relative;
+    z-index: 1;
+  }
+  .ai__elements {
+    position: absolute;
+    top: 30px;
+    right: -160px;
+    width: 80px;
+    img {
+      width: 100%;
+    }
+    @include breakpoint(max-xl) {
+      width: 60px;
+      right: -140px;
+    }
+    @include breakpoint(max-lg) {
+      right: 150px;
+      top: 100%;
+    }
+    @include breakpoint(max-md) {
+      right: 50px;
+      bottom: 80px;
+    }
+    @include breakpoint(max-xs) {
+      width: 30px;
+      right: 20px;
+      top: 20px;
+    }
+  }
+
+  .ai__text {
+    position: absolute;
+    top: 10px;
+    left: -150px;
+    max-width: 309px;
+    img {
+      width: 100%;
+    }
+    @include breakpoint(max-xxl) {
+      width: 200px;
+      left: -50px;
+    }
+  }
+  .d3 {
+    margin-bottom: 24px;
+    @include breakpoint(max-xl) {
+      font-size: 3rem;
+    }
+    @include breakpoint(max-sm) {
+      font-size: 2rem;
+      margin-bottom: 18px;
+    }
+  }
+  p {
+    margin-bottom: 40px;
+    @include breakpoint(max-sm) {
+      font-size: 1rem;
+      margin-bottom: 30px;
+    }
+  }
+  .btg__grp {
+    display: flex;
+    align-items: center;
+    gap: 15px 24px;
+    .play__btn {
+      display: flex;
+      align-items: center;
+      gap: 5px 16px;
+      .play__icon {
+        display: block;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background: var(--base);
+        text-align: center;
+        line-height: 60px;
+        i {
+          font-size: 1.6rem;
+          color: var(--white);
+        }
+      }
+    }
+    @include breakpoint(max-sm) {
+      gap: 10px 15px;
+      .cmn--btn {
+        padding: 5px 15px;
+        span {
+          font-size: 0.9rem;
+        }
+      }
+      .play__btn {
+        gap: 5px;
+        .play__icon {
+          width: 35px;
+          height: 35px;
+          line-height: 35px;
+          i {
+            font-size: 0.9rem;
+          }
+        }
+        span {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}
+//Defoult Banner
+
+//Banner Style Two
+.banner__section__two {
+  position: relative;
+  .banner__ai2 {
+    position: absolute;
+    top: 200px;
+    left: 88px;
+    animation: cir360 30s linear infinite;
+    @include breakpoint(max-xxl) {
+      left: 10px;
+    }
+    @include breakpoint(max-xl) {
+      display: none;
+    }
+  }
+  .banner__checkai {
+    position: absolute;
+    top: 200px;
+    right: 88px;
+    @include breakpoint(max-xxl) {
+      right: 100px;
+      top: 140px;
+      width: 25px;
+      img {
+        width: 100px;
+      }
+    }
+    @include breakpoint(max-md) {
+      width: 40px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    @include breakpoint(max-xs) {
+      display: none;
+    }
+  }
+  .banner__nulldimond {
+    position: absolute;
+    bottom: 110px;
+    right: 15%;
+    animation: cir360 8s linear infinite;
+    @include breakpoint(max-xs) {
+      bottom: 20px;
+    }
+  }
+  .banner__wrapper {
+    position: relative;
+    .banner__content {
+      padding: 45px 0 240px;
+      .aitext2 {
+        position: absolute;
+        right: -70px;
+        top: 0;
+        opacity: 0.2;
+      }
+      @include breakpoint(max-xxl) {
+        padding: 45px 0 200px;
+      }
+      @include breakpoint(max-xl) {
+        padding: 45px 0 170px;
+      }
+      @include breakpoint(max-lg) {
+        padding: 45px 0 60px;
+      }
+      @include breakpoint(max-md) {
+        padding: 45px 0 0px;
+      }
+      @include breakpoint(max-sm) {
+        padding: 45px 0 40px;
+      }
+      @include breakpoint(max-xs) {
+        padding: 25px 0 5px;
+      }
+    }
+    .banner__thumb {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      .thumb {
+        max-width: 520px;
+        @include breakpoint(max-xl) {
+          max-width: 450px;
+        }
+        @include breakpoint(max-lg) {
+          display: none;
+        }
+      }
+    }
+  }
+  .banner__content {
+    position: relative;
+    .ball3d {
+      position: absolute;
+      left: -100px;
+      bottom: 30%;
+      animation: skews 5s linear infinite;
+      @include breakpoint(max-md) {
+        top: -20px;
+        left: -0px;
+        width: 40px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .banner3__two {
+      position: absolute;
+      top: 31%;
+      right: 40%;
+      animation: cir360 10s linear infinite;
+      @include breakpoint(max-lg) {
+        display: none;
+      }
+    }
+    .banner__blump {
+      position: absolute;
+      right: -100px;
+      animation: cir360 10s linear infinite;
+      @include breakpoint(max-md) {
+        display: none;
+      }
+    }
+  }
+}
+//Banner Style Two
+
+//Banner Style There
+.banner__section__three {
+  position: relative;
+  overflow: hidden;
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 300px;
+    height: 300px;
+    background: #452ff4;
+    opacity: 0.2;
+    filter: blur(150px);
+    @include breakpoint(max-xs) {
+      width: 250px;
+    }
+  }
+  &::after {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    content: "";
+    width: 300px;
+    height: 300px;
+    background: #452ff4;
+    opacity: 0.2;
+    filter: blur(150px);
+    @include breakpoint(max-xs) {
+      width: 250px;
+    }
+  }
+  .light__element3 {
+    bottom: 60px;
+    right: 10%;
+  }
+  .banner3__content__wrapper {
+    padding: 50px 40px 50px;
+    @include breakpoint(max-xl) {
+      padding: 50px 10px 50px;
+    }
+    @include breakpoint(max-lg) {
+      padding: 50px 10px 0px;
+    }
+    @include breakpoint(max-sm) {
+      padding: 40px 10px 25px;
+    }
+  }
+  .banner3__left__shape {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+    @include breakpoint(max-lg) {
+      margin: 0 auto;
+    }
+  }
+  .banner__content {
+    text-align: center;
+    padding: 50px 0 50px;
+    max-width: 660px;
+    margin: 0 auto;
+    .ai__text {
+      opacity: 0.3;
+      top: -49px;
+    }
+    .content__box {
+      .btg__grp {
+        justify-content: center;
+        @include breakpoint(max-xs) {
+          gap: 8px;
+        }
+      }
+    }
+  }
+}
+//Banner Style Four
+.banner__section__four {
+  position: relative;
+  .devided__round {
+    position: absolute;
+    top: 100px;
+    left: 130px;
+    animation: rlrl 5s linear infinite;
+    @include breakpoint(max-xl) {
+      width: 50px;
+      img {
+        width: 100%;
+      }
+      left: 40px;
+    }
+  }
+  .devided__lock1 {
+    position: absolute;
+    bottom: 90px;
+    left: 150px;
+    @include breakpoint(max-xxl) {
+      bottom: 70px;
+    }
+    @include breakpoint(max-xl) {
+      bottom: 20px;
+    }
+  }
+  .devided__lock2 {
+    position: absolute;
+    bottom: 150px;
+    left: 44%;
+    @include breakpoint(max-lg) {
+      left: 10%;
+      bottom: 300px;
+    }
+    @include breakpoint(max-sm) {
+      bottom: 200px;
+    }
+    @include breakpoint(max-xs) {
+      bottom: 100px;
+    }
+  }
+  .devided__blump {
+    position: absolute;
+    right: 32%;
+    bottom: 80px;
+    @include breakpoint(max-lg) {
+      right: 10%;
+      bottom: 450px;
+    }
+    @include breakpoint(max-sm) {
+      bottom: 300px;
+    }
+    @include breakpoint(max-xs) {
+      bottom: 250px;
+    }
+  }
+  &::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    width: 400px;
+    height: 400px;
+    background: #452ff4;
+    opacity: 0.5;
+    filter: blur(206.436px);
+    @include breakpoint(max-sm) {
+      width: 250px;
+      height: 250px;
+    }
+  }
+  &::after {
+    position: absolute;
+    content: "";
+    left: -20px;
+    bottom: 40%;
+    width: 300px;
+    height: 300px;
+    background: #41e295;
+    opacity: 0.2;
+    filter: blur(98.0198px);
+    @include breakpoint(max-sm) {
+      width: 250px;
+      height: 250px;
+    }
+  }
+  .banner__wrapper {
+    padding: 230px 0 0px;
+    @include breakpoint(max-xxl) {
+      padding: 200px 0 0px;
+    }
+    @include breakpoint(max-lg) {
+      padding: 170px 0 0px;
+    }
+    .banner__content {
+      padding: 0px 0px 0px;
+      @include breakpoint(max-xl) {
+        margin-top: -25px;
+      }
+      @include breakpoint(max-lg) {
+        margin-top: -0px;
+        margin-bottom: 45px;
+      }
+      .content__box {
+        .d3 {
+          .rounded {
+            position: relative;
+            svg {
+              position: absolute;
+              left: -30px;
+              top: 4px;
+              width: 280px;
+              height: 96px;
+              @include breakpoint(max-xl) {
+                width: 220px;
+                height: 65px;
+                top: 7px;
+              }
+              @include breakpoint(max-sm) {
+                width: 135px;
+                left: -12px;
+                top: -6px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .banner__thumb {
+      width: 600px;
+      height: 555px;
+      margin-left: auto;
+      margin-bottom: -20px;
+      position: relative;
+      z-index: 1;
+      .thumb {
+        animation: none;
+      }
+      .banner__airound {
+        position: absolute;
+        top: 4px;
+        left: 1px;
+        max-width: 370px;
+        animation: cir360 15s linear infinite;
+        z-index: -1;
+        @include breakpoint(max-xl) {
+          max-width: 300px;
+          left: 6px;
+          top: 6px;
+        }
+        @include breakpoint(max-sm) {
+          max-width: 230px;
+          left: 80px;
+          top: -7px;
+        }
+        @include breakpoint(max-xs) {
+          max-width: 160px;
+          left: 11px;
+          top: 10px;
+        }
+      }
+      @include breakpoint(max-xl) {
+        width: 500px;
+        height: 450px;
+      }
+      @include breakpoint(max-lg) {
+        margin: 0 auto;
+      }
+      @include breakpoint(max-sm) {
+        width: unset;
+        height: unset;
+      }
+      &::before {
+        display: none;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+//Banner Style Five
+.banner__section__five {
+  position: relative;
+  .ball__element5 {
+    position: absolute;
+    right: 140px;
+    top: 100px;
+    width: 80px;
+    opacity: 0.4;
+    animation: cir360 20s linear infinite;
+    img {
+      width: 100%;
+    }
+    @include breakpoint(max-xl) {
+      width: 60px;
+      right: 40px;
+      top: 130px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .bulp {
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    opacity: 0.8;
+    @include breakpoint(max-xl) {
+      width: 60px;
+      left: 40px;
+      top: 140px;
+      img {
+        width: 100%;
+      }
+    }
+    @include breakpoint(max-sm) {
+      display: none;
+    }
+  }
+  .null__dimond {
+    position: absolute;
+    bottom: 80px;
+    left: 80px;
+    opacity: 0.5;
+    animation: cir360 20s linear infinite;
+  }
+  .banner__content {
+    padding: 100px 0 110px;
+    @include breakpoint(max-lg) {
+      padding: 100px 0 10px;
+    }
+    @include breakpoint(max-sm) {
+      padding: 60px 0 10px;
+    }
+    .content__box {
+      .d3 {
+        position: relative;
+        svg {
+          width: 61px;
+          height: 59px;
+          position: absolute;
+          top: -20px;
+          left: -32px;
+          @include breakpoint(max-xl) {
+            top: -30px;
+            left: -40px;
+          }
+          @include breakpoint(max-sm) {
+            transform: rotate(50deg);
+            left: -10px;
+            top: -45px;
+          }
+        }
+        .round3 {
+          position: absolute;
+          bottom: -20px;
+          right: 200px;
+          opacity: 0.5;
+          animation: cir360 10s linear infinite;
+          @include breakpoint(max-xxl) {
+            right: 140px;
+            bottom: -5px;
+          }
+          @include breakpoint(max-lg) {
+            display: none;
+          }
+        }
+      }
+      .banner5__blump {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        opacity: 0.4;
+        width: 45px;
+        animation: cir360 10s linear infinite;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .aitext5 {
+    position: absolute;
+    right: 0;
+    top: -15px;
+    opacity: 0.2;
+  }
+  .banner__thumb {
+    .animated3 {
+      position: absolute;
+      right: -40px;
+      bottom: 0;
+      opacity: 0.5;
+      animation: cir360 20s linear infinite;
+      @include breakpoint(max-sm) {
+        width: 40px;
+        right: 10px;
+        bottom: -30px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+//Banner Style Five
+
+//Banner Breadcumnd
+.breadcumnd__wrapper {
+  position: relative;
+  z-index: 1;
+  .breadcumnd__content {
+    padding: 190px 0 80px;
+    .title {
+      color: var(--white);
+      margin-bottom: 1.5rem;
+      @include breakpoint(max-lg) {
+        font-size: 2.3rem;
+        line-height: 2.1rem;
+      }
+      @include breakpoint(max-xs) {
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+      }
+    }
+    .breadcumnd__list {
+      display: flex;
+      align-items: center;
+      gap: 8px 5px;
+      @include breakpoint(max-xs) {
+        gap: 8px 2px;
+      }
+      li {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: var(--white);
+        a {
+          font-size: 1rem;
+          line-height: 1.5rem;
+          color: var(--white);
+        }
+        .icon {
+          display: block;
+          margin-top: 9px;
+          i {
+            font-size: 20px;
+            color: var(--white);
+          }
+        }
+      }
+      .sucess {
+        color: #41e295;
+      }
+    }
+    @include breakpoint(max-sm) {
+      padding: 170px 0 70px;
+    }
+  }
+  .breadcumnd__thumb {
+    animation: bns1 5s linear infinite;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+    @include breakpoint(max-md) {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 180px;
+      img {
+        width: 100%;
+      }
+    }
+    @include breakpoint(max-xs) {
+      width: 80px;
+    }
+  }
+  .bread__ai {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    max-width: 250px;
+    img {
+      width: 100%;
+    }
+  }
+}
+//Banner Breadcumnd
+
+//Banner All Component Style Here
