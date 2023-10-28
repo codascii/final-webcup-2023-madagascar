@@ -2,7 +2,8 @@ import Artificial from "@/components/common/Artificial";
 import PlanThree from "@/components/common/PlanThree";
 import QualifiedTwo from "@/components/common/QualifiedTwo";
 import TestimonialFour from "@/components/common/TestimonialFour";
-import FooterTwo from "@/components/footer/FooterTwo";
+//import FooterTwo from "@/components/footer/FooterTwo";
+import Footer from "@/components/footer/Footer";
 import Banner from "@/components/homeThree/Banner";
 import Capabilities from "@/components/homeThree/Capabilities";
 import EfectiveThree from "@/components/homeThree/EfectiveThree";
@@ -44,7 +45,7 @@ export default function HomeThree() {
       <Newsletter />
 
       {/* Footer section */}
-      <FooterTwo />
+      <Footer />
     </>
   );
 }

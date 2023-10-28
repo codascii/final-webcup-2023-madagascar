@@ -1,5 +1,6 @@
 import Subscribe from "./common/Subscribe";
-import FooterFour from "./footer/FooterFour";
+//import FooterFour from "./footer/FooterFour";
+import Footer from "@/components/footer/Footer";
 import NavBar from "./navBar/NavBar";
 import Preloader from "./preloader/Preloader";
 import ScrollToTop from "./scrollToTop/ScrollToTop";
@@ -20,7 +21,7 @@ const Layout = ({ children }) => {
       <Subscribe />*/}
 
       {/* Footer */}
-      <FooterFour />
+      <Footer />
 
       {/* Scroll To Top */}
       <ScrollToTop />
