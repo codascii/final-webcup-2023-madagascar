@@ -26,10 +26,10 @@ export default function App({ Component, pageProps }) {
     return Component.getLayout(
       <>
         <Head>
-          <title>Intellicon - Machine Learnig React Nextjs Template</title>
+          <title>AlteSphere - Prédiction des catastrophes naturelle par IA</title>
           <meta
             name="description"
-            content="AI & Machine Learning eact Nextjs app"
+            content="L'IA au service de la prediction des catastrophes naturelles"
           />
           <link rel="icon" href="favicon.ico" />
         </Head>
@@ -43,10 +43,10 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Intellicon - Machine Learnig React Nextjs Template</title>
+        <title>AlteSphere - Prédiction des catastrophes naturelle par IA</title>
         <meta
           name="description"
-          content="AI & Machine Learning eact Nextjs app"
+          content="L'IA au service de la prediction des catastrophes naturelles"
         />
         <link rel="icon" href="favicon.ico" />
       </Head>

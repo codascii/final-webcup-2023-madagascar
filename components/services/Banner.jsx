@@ -3,7 +3,7 @@ import SmallBanner from "../common/SmallBanner";
 
 const Banner = () => {
   return (
-    <SmallBanner title="Services">
+    <SmallBanner title="Les catastrophes naturelles">
       {/* Breadcrumb */}
       <Breadcrumb
         breadcrumbs={[
