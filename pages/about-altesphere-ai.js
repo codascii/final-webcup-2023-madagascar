@@ -23,8 +23,8 @@ export default function AboutTwo() {
 			{/*TestimonialTwo Section */}
 			<TestimonialTwo />
 
-			{/*QualifiedTwo Section */}
-			<QualifiedTwo />
+			{/*QualifiedTwo Section 
+			<QualifiedTwo />*/}
 
 			{/*Newsletter Section */}
 			<Newsletter />
