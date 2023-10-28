@@ -1,7 +1,8 @@
 import LeftSide from "./LeftSide";
-import RightSide from "./RightSide";
+//import RightSide from "./RightSide";
 
-const ServiceDetailsMain = () => {
+const ServiceDetailsMain = () => { 
+  
   return (
     <section className="service__section bg__white pt-120 pb-120">
       {/* container */}

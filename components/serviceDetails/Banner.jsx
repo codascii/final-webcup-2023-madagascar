@@ -3,16 +3,16 @@ import SmallBanner from "../common/SmallBanner";
 
 const Banner = () => {
   return (
-    <SmallBanner title="Blog List">
+    <SmallBanner title="">
       {/* Breadcrumb */}
-      <Breadcrumb
+      {/* <Breadcrumb
         breadcrumbs={[
           ["Home", "/"],
           ["Blog", "/"],
           ["Services", "/"],
           ["Details", "/"],
         ]}
-      />
+      /> */}
     </SmallBanner>
   );
 };
