@@ -53,12 +53,12 @@ const NavItems = ({ active, setActive }) => {
     <ul className={`main-menu ${active && "active"}`}>
       {/* comp */}
       <li onClick={() => handleShowDropdown("home")}>
-        <a href="/" className="d-flex">
+        <Link href="/" className="d-flex">
           <span>Accueil</span>
           <span className="icons">
             {/* <i className="material-symbols-outlined">expand_more</i> */}
           </span>
-        </a>
+        </Link>
         {/* <ul
           className={`menu__imgchange  sub-menu ${
             showDropdown === "home" ? "d-lg-flex d-block" : ""
@@ -148,6 +148,211 @@ const NavItems = ({ active, setActive }) => {
         </ul> */}
       </li>
 
+      <li>
+        <Link href="/maps" className="d-flex">
+          <span>Map</span>
+          <span className="icons">
+            {/* <i className="material-symbols-outlined">expand_more</i> */}
+          </span>
+        </Link>
+      </li>
+
+       <li className="grid__style">
+        <Link
+          href="/natural-desastre"
+          className="d-flex"
+          // onClick={() => handleShowDropdown("pages")}
+        >
+          <span>Catastrophe naturelles</span>
+          <span className="icons">
+            {/* <i className="material-symbols-outlined">expand_more</i> */}
+          </span>
+        </Link>
+        {/* <ul className={`sub-menu ${showDropdown === "pages" ? "d-block" : ""}`}>
+          {[
+            // [
+            //   "About",
+            //   "URL:void(0)",
+            //   [
+            //     ["About One", "/about"],
+            //     ["About Two", "/about-two"],
+            //     ["About Three", "/about-three"],
+            //     ["About Four", "/about-four"],
+            //     ["About Five", "/about-five"],
+            //   ],
+            // ],
+            // ["Pricing Page", "/pricing"],
+            // [
+            //   "Services",
+            //   "URL:void(0)",
+            //   [
+            //     ["Services Page", "/services"],
+            //     ["Service Details", "/service-details"],
+            //   ],
+            // ],
+            // ["Services Page", "/services"],
+            //     ["Service Details", "/service-details"],
+            // ["Faq Page", "/faq"],
+            // ["Contact", "/contact"],
+            // ["404", "/error"],
+          ].map(([itm, url, sub_dop], i) => {
+            return sub_dop ? (
+              <li key={`sr${i}`} className="subtwohober">
+                <Link
+                  href={url}
+                  className="d-flex align-items-center justify-content-between"
+                >
+                  <span className="text">{itm}</span>
+                  <span className="icon">
+                    <i className="material-symbols-outlined">add</i>
+                  </span>
+                </Link>
+
+                <ul className="sub-two">
+                  {sub_dop.map(([itm, url], i) => (
+                    <li key={`st${i}`}>
+                      <Link href={url} onClick={() => setActive(false)}>
+                        {itm}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ) : (
+              <li key={`sp${i}`}>
+                <Link href={url} onClick={() => setActive(false)}>
+                  {itm}
+                </Link>
+              </li>
+            );
+          })}
+        </ul> */}
+      </li>
+
+      <li className="grid__style">
+        <Link
+          href="/contact"
+          className="d-flex"
+          onClick={() => handleShowDropdown("pages")}
+        >
+          <span>Contact</span>
+          <span className="icons">
+            {/* <i className="material-symbols-outlined">expand_more</i> */}
+          </span>
+        </Link>
+        {/* <ul className={`sub-menu ${showDropdown === "pages" ? "d-block" : ""}`}>
+          {[
+            // [
+            //   "About",
+            //   "URL:void(0)",
+            //   [
+            //     ["About One", "/about"],
+            //     ["About Two", "/about-two"],
+            //     ["About Three", "/about-three"],
+            //     ["About Four", "/about-four"],
+            //     ["About Five", "/about-five"],
+            //   ],
+            // ],
+            // ["Pricing Page", "/pricing"],
+            // [
+            //   "Services",
+            //   "URL:void(0)",
+            //   [
+            //     ["Services Page", "/services"],
+            //     ["Service Details", "/service-details"],
+            //   ],
+            // ],
+            // ["Faq Page", "/faq"],
+            // ["Contact", "/contact"],
+            // ["404", "/error"],
+          ].map(([itm, url, sub_dop], i) => {
+            return sub_dop ? (
+              <li key={`sr${i}`} className="subtwohober">
+                <Link
+                  href={url}
+                  className="d-flex align-items-center justify-content-between"
+                >
+                  <span className="text">{itm}</span>
+                  <span className="icon">
+                    <i className="material-symbols-outlined">add</i>
+                  </span>
+                </Link>
+
+                <ul className="sub-two">
+                  {sub_dop.map(([itm, url], i) => (
+                    <li key={`st${i}`}>
+                      <Link href={url} onClick={() => setActive(false)}>
+                        {itm}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ) : (
+              <li key={`sp${i}`}>
+                <Link href={url} onClick={() => setActive(false)}>
+                  {itm}
+                </Link>
+              </li>
+            );
+          })}
+        </ul> */}
+      </li>
+
+      <li className="grid__style">
+        <Link
+          href="URL:void(0)"
+          className="d-flex"
+          onClick={() => handleShowDropdown("pages")}
+        >
+          <span>À propos</span>
+          <span className="icons">
+            <i className="material-symbols-outlined">expand_more</i>
+          </span>
+        </Link>
+        <ul className={`sub-menu ${showDropdown === "pages" ? "d-block" : ""}`}>
+          {[
+              // ["About One", "/about"],
+              ["AlteSphere AI", "/about-altesphere-ai"],
+              // ["About Two", "/about-two"],
+              // ["About Three", "/about-three"],
+              // ["About Four", "/about-four"],
+              ["Ocena Indian Institut", "/about-institut"],
+              // ["About Five", "/about-five"],
+          ].map(([itm, url, sub_dop], i) => {
+            return sub_dop ? (
+              <li key={`sr${i}`} className="subtwohober">
+                <Link
+                  href={url}
+                  className="d-flex align-items-center justify-content-between"
+                >
+                  <span className="text">{itm}</span>
+                  <span className="icon">
+                    <i className="material-symbols-outlined">add</i>
+                  </span>
+                </Link>
+
+                <ul className="sub-two">
+                  {sub_dop.map(([itm, url], i) => (
+                    <li key={`st${i}`}>
+                      <Link href={url} onClick={() => setActive(false)}>
+                        {itm}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ) : (
+              <li key={`sp${i}`}>
+                <Link href={url} onClick={() => setActive(false)}>
+                  {itm}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </li>
+
       {/* comp */}
       {/* <li onClick={() => handleShowDropdown("case")}>
         <Link href="URL:void(0)" className="d-flex">
@@ -184,7 +389,9 @@ const NavItems = ({ active, setActive }) => {
         </ul>
       </li> */}
 
-      <li className="grid__style">
+
+
+      {/* <li className="grid__style">
         <Link
           href="URL:void(0)"
           className="d-flex"
@@ -306,10 +513,10 @@ const NavItems = ({ active, setActive }) => {
             </li>
           ))}
         </ul>
-      </li>
+      </li> */}
 
       {/* comp */}
-      <li className="block__menus">
+      {/* <li className="block__menus">
         <Link
           href="URL:void(0)"
           className="d-flex"
@@ -353,7 +560,7 @@ const NavItems = ({ active, setActive }) => {
             </li>
           ))}
         </ul>
-      </li>
+      </li> */}
     </ul>
   );
 };
