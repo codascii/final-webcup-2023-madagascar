@@ -7,7 +7,7 @@ import dark_logo from "/public/img/logo/dark-logo.png";
 import favicon from "/public/img/logo/favicon.png";
 import logo from "/public/img/logo/logo.png";
 
-const NavBar = ({ clss }) => {
+const NavBar = ({ clss, inMapsPage }) => {
   const [windowHeight, setWindowHeight] = useState(0);
   const [active, setActive] = useState(false);
 
@@ -29,6 +29,8 @@ const NavBar = ({ clss }) => {
     <header
       className={`header-section ${clss} ${
         windowHeight > 150 && "menu-fixed animated fadeInDown"
+      } ${
+       inMapsPage && "menu-fixed animated fadeInDown"
       }`}
     >
       <div className="container">
