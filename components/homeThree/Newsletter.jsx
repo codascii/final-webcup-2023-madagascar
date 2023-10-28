@@ -22,12 +22,10 @@ const Newsletter = () => {
               >
                 <div className="section__header">
                   <h2>
-                    Subscribe to the newsletter and receive notifications.
+                    Abonner vous a notre newsletter.
                   </h2>
                   <p>
-                    Sign up for updates and stay informed about the latest
-                    developments and be a part of our community and get the
-                    latest news and insights
+                    veuillez saisire votre e-mail pour vous abonner.
                   </p>
                 </div>
                 <form action="/">
@@ -37,7 +35,7 @@ const Newsletter = () => {
                     required
                   />
                   <button className="cmn--btn" type="submit">
-                    <span>Subscribe</span>
+                    <span>S'enregistrer</span>
                   </button>
                 </form>
                 <div className="social__part">

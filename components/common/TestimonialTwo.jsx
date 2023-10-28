@@ -30,12 +30,9 @@ const TestimonialTwo = ({ clss = "bg__white" }) => {
           <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <div className="testimonial__content testimonial__content__two">
               <div className="section__header mb-2">
-                <h2>Témoignages des scientifiques de l'Indian Ocean Institut sur les avantages et la précision de l'IA</h2>
+                <h2>Témoignages de la scientifiques Indian Ocean Institut</h2>
                 <p>
-                  AI is the broader concept of machines being able to perform
-                  tasks that would normally require human intelligence, such as
-                  visual perception, speech recognition, and language
-                  translation.
+                 
                 </p>
               </div>
               <div className="testimonial__wrap__two owl-theme owl-carousel">
