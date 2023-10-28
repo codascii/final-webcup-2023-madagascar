@@ -35,7 +35,7 @@ const Faq = () => {
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      What is the difference between AI and ML?
+                      Qu'est-ce qui cause [type spécifique de catastrophe, par exemple, un tremblement de terre ou un ouragan] ?
                     </button>
                   </h2>
                   <div
@@ -46,9 +46,7 @@ const Faq = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        Learn the basics: Acquire a basic understanding of AI
-                        and ML concepts and technologies by reading books,
-                        taking online courses, or attending workshops.
+                      Les causes varient selon le type de catastrophe. Par exemple, un tremblement de terre est généralement causé par le mouvement des plaques tectoniques sous la croûte terrestre, tandis qu'un ouragan résulte de perturbations atmosphériques et de la température de l'eau de mer.
                       </p>
                     </div>
                   </div>
