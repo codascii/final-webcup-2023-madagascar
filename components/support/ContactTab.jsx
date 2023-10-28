@@ -27,7 +27,7 @@ const ContactTab = () => {
           Purus in the mass of time nor feugiat nisl the price of that brown.
           But now he wants to become a member. Drink at the casino or quiver. A
           mass of mass of ultrices. To decorate the bronze element of Euismod,
-          if anyone is eleifend. In order to monitor the price of the monitor,
+          if anyone is eleifend. In order to monitor the price of the monitor,s
           there is no power and the monitor has been suspended. It&#39;s
           convenient, but it&#39;s necessary to have a good taste.
         </p>
@@ -41,11 +41,6 @@ const ContactTab = () => {
           condimentum mattis pellentesque id nibh. We have a pillow for
           tomorrow, but now.
         </p>
-        <ul className="list">
-          <li>Cras sed felis eget velit aliquet. Morbi quis commodo odio</li>
-          <li>Cras sed felis eget velit aliquet. Morbi quis commodo odio</li>
-          <li>Cras sed felis eget velit aliquet. Morbi quis commodo odio</li>
-        </ul>
       </div>
       <div className="same__condition__items text__box__none">
         <h4>Cookies and tracking</h4>
@@ -67,11 +62,6 @@ const ContactTab = () => {
           That&#39;s the truck that was used for the sauce. Pain cartoon itself
           now.
         </p>
-        <ul className="list">
-          <li>Cras sed felis eget velit aliquet. Morbi quis commodo odio</li>
-          <li>Cras sed felis eget velit aliquet. Morbi quis commodo odio</li>
-          <li>Cras sed felis eget velit aliquet. Morbi quis commodo odio</li>
-        </ul>
       </div>
     </div>
   );

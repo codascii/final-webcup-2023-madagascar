@@ -67,7 +67,7 @@ const FooterThree = ({ clss = "footer__section__four" }) => {
                       <span className="icon">
                         <i className="material-symbols-outlined">add_call</i>
                       </span>
-                      <span className="fcontact__content">(406) 555-0120</span>
+                      <span className="fcontact__content">0269123456</span>
                     </Link>
                     <Link href="/" className="footer__contact__items">
                       <span className="icon icontwo">
@@ -76,7 +76,7 @@ const FooterThree = ({ clss = "footer__section__four" }) => {
                         </i>
                       </span>
                       <span className="fcontact__content">
-                        example@example.com
+                      contact@AlteSphere.com
                       </span>
                     </Link>
                     <Link href="/" className="footer__contact__items">
@@ -86,7 +86,8 @@ const FooterThree = ({ clss = "footer__section__four" }) => {
                         </span>
                       </span>
                       <span className="fcontact__content">
-                        Westheimer Rd. Santa Ana, Illinois
+                      17 rue Kaweni 
+                      97600 Mayotte
                       </span>
                     </Link>
                   </div>
@@ -95,10 +96,10 @@ const FooterThree = ({ clss = "footer__section__four" }) => {
               <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
                 <div className="footer__widget">
                   <div className="widget__head">
-                    <h4>Newsletter</h4>
+                    <h4> </h4>
                   </div>
                   <p className="pb__20">
-                    Subscribe our newsletter to get our latest update & news
+                  Abonnez-vous à notre page pour recevoir nos dernières nouvelles
                   </p>
                   <form action="#">
                     <input

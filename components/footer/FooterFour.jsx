@@ -91,7 +91,7 @@ const FooterFour = () => {
                       Pricing Plan
                     </Link>
                     <Link href="/shop" className="link">
-                      Shop
+                      Map
                     </Link>
                   </div>
                 </div>
@@ -130,7 +130,7 @@ const FooterFour = () => {
                       <span className="icon">
                         <i className="material-symbols-outlined">AU</i>
                       </span>
-                      <span className="fcontact__content">(+262) 23 25 26</span>
+                      <span className="fcontact__content">0269123456</span>
                     </Link>
                     <Link href="/" className="footer__contact__items">
                       <span className="icon icontwo">
@@ -139,7 +139,7 @@ const FooterFour = () => {
                         </i>
                       </span>
                       <span className="fcontact__content">
-                        HoumaDevRaiv@mail.com
+                      contact@AlteSphere.com
                       </span>
                     </Link>
                     <Link href="/" className="footer__contact__items">
@@ -149,7 +149,8 @@ const FooterFour = () => {
                         </span>
                       </span>
                       <span className="fcontact__content">
-                      47 Rue des Marguerites,
+                      17 rue Kaweni 
+                      97600 Mayotte
                       </span>
                     </Link>
                   </div>
