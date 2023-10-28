@@ -16,12 +16,10 @@ const Newsletter = () => {
               <div className="newsletter__content">
                 <div className="section__header section__center">
                   <h2 className="wow fadeInUp" data-wow-duration="1s">
-                    Subscribe to newsletters and get news.
+                  S'abonner à notre bulletins d'information et recevoir nos nouvelles.
                   </h2>
                   <p className="wow fadeInUp" data-wow-duration="2s">
-                    Sign up for updates and stay informed about the latest
-                    developments and be a part of our community and get the
-                    latest news and insights
+                  Inscrivez-vous pour recevoir les mises à jour et restez informé 
                   </p>
                 </div>
                 <form action="#">
@@ -31,7 +29,7 @@ const Newsletter = () => {
                     required
                   />
                   <button className="cmn--btn" type="submit">
-                    <span>Subscribe</span>
+                    <span>S'abonner</span>
                   </button>
                 </form>
 
