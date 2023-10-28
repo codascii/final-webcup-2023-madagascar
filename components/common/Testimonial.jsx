@@ -12,8 +12,11 @@ import facebook_element from "/public/img/elements/facebook-element.png";
 import pinter_elements from "/public/img/elements/pinter-elements.png";
 import swith_elements from "/public/img/elements/swith-elements.png";
 import devon from "/public/img/testimonial/devon.png";
+import lea from "/public/img/testimonial/lea.png";
 import jenny from "/public/img/testimonial/jenny.png";
-import kathryn from "/public/img/testimonial/kathryn.png";
+import marc from "/public/img/testimonial/marc.png";
+import rajan from "/public/img/testimonial/rajan.png";
+import sami from "/public/img/testimonial/sami.png";
 import testimonial1 from "/public/img/testimonial/testimonial1.png";
 
 const Testimonial = () => {
@@ -62,12 +65,10 @@ const Testimonial = () => {
                       <i className="material-symbols-outlined">star</i>
                       <i className="material-symbols-outlined">star</i>
                       <i className="material-symbols-outlined">star</i>
-                      <i className="material-symbols-outlined">star_half</i>
+                      <i className="material-symbols-outlined">star</i>
                     </div>
                     <p>
-                      Our company has seen significant improvement in efficiency
-                      and accuracy since implementing AI and ML technology in
-                      our processes...
+                      {"La mise en place de l'AIPCN a marqué un tournant dans la prévision des catastrophes naturelles. Avant, nous ne pouvions que réagir. Aujourd'hui, grâce à cet algorithme, nous avons le pouvoir d'anticiper, et cela sauve des vies."}
                     </p>
                     <div className="client__wrap">
                       <div className="thumb">
@@ -75,7 +76,7 @@ const Testimonial = () => {
                       </div>
                       <div className="content">
                         <h5>Devon Lane</h5>
-                        <span className="designation">Louis Vuitton</span>
+                        <span className="designation">{"Dr. Ananya Roy, Spécialiste en Sismologie à l'Indian Ocean Institut"}</span>
                       </div>
                     </div>
                   </div>
@@ -85,20 +86,18 @@ const Testimonial = () => {
                       <i className="material-symbols-outlined">star</i>
                       <i className="material-symbols-outlined">star</i>
                       <i className="material-symbols-outlined">star</i>
-                      <i className="material-symbols-outlined">star_half</i>
+                      <i className="material-symbols-outlined">star</i>
                     </div>
                     <p>
-                      Our company has seen significant improvement in efficiency
-                      and accuracy since implementing AI and ML technology in
-                      our processes...
+                      {"Jamais je n'aurais imaginé voir une telle précision dans la prédiction des catastrophes. L'AIPCN est le fruit de décennies de recherches et le résultat est impressionnant. C'est la fusion parfaite entre la technologie et la nature pour servir l'humanité."}
                     </p>
                     <div className="client__wrap">
                       <div className="thumb">
-                        <Image src={jenny} alt="img" />
+                        <Image src={rajan} alt="img" />
                       </div>
                       <div className="content">
-                        <h5>Devon Lane</h5>
-                        <span className="designation">Louis Vuitton</span>
+                        <h5>Prof. Rajan Kumar</h5>
+                        <span className="designation">{"Directeur de Recherche en IA à l'Indian Ocean Institut"}</span>
                       </div>
                     </div>
                   </div>
@@ -108,20 +107,18 @@ const Testimonial = () => {
                       <i className="material-symbols-outlined">star</i>
                       <i className="material-symbols-outlined">star</i>
                       <i className="material-symbols-outlined">star</i>
-                      <i className="material-symbols-outlined">star_half</i>
+                      <i className="material-symbols-outlined">star</i>
                     </div>
                     <p>
-                      Our company has seen significant improvement in efficiency
-                      and accuracy since implementing AI and ML technology in
-                      our processes...
+                      {"En ouvrant \"SeismoPredict\", j'ai vu une alerte sismique pour ma région. J'ai immédiatement suivi les conseils du site, se réfugiant sous un cadre de porte solide. Quelques instants plus tard, le sol tremblait violemment. Grâce à cette alerte précoce, j'ai évité d'être prise au dépourvu et j'ai pu me protéger. Je suis infiniment reconnaissante à \"SeismoPredict\""}
                     </p>
                     <div className="client__wrap">
                       <div className="thumb">
-                        <Image src={devon} alt="img" />
+                        <Image src={lea} alt="img" />
                       </div>
                       <div className="content">
-                        <h5>Devon Lane</h5>
-                        <span className="designation">Louis Vuitton</span>
+                        <h5>Léa</h5>
+                        <span className="designation">Sauvée grâce aux prédictions de Altesphere</span>
                       </div>
                     </div>
                   </div>
@@ -131,20 +128,18 @@ const Testimonial = () => {
                       <i className="material-symbols-outlined">star</i>
                       <i className="material-symbols-outlined">star</i>
                       <i className="material-symbols-outlined">star</i>
-                      <i className="material-symbols-outlined">star_half</i>
+                      <i className="material-symbols-outlined">star</i>
                     </div>
                     <p>
-                      Our company has seen significant improvement in efficiency
-                      and accuracy since implementing AI and ML technology in
-                      our processes...
+                     {"Lorsque le ciel s'est assombri, j'ai consulté \"MeteoAlerte\" par réflexe. L'alerte cyclonique m'a surpris. Grâce aux prévisions précises du site, j'ai pu rapidement sécuriser ma maison et mettre ma famille à l'abri. Quand le cyclone a frappé, nous étions prêts. Sans \"MeteoAlerte\", l'issue aurait pu être bien différente. Je leur dois énormément."}
                     </p>
                     <div className="client__wrap">
                       <div className="thumb">
-                        <Image src={jenny} alt="img" />
+                        <Image src={marc} alt="img" />
                       </div>
                       <div className="content">
-                        <h5>Devon Lane</h5>
-                        <span className="designation">Louis Vuitton</span>
+                        <h5>Marc</h5>
+                        <span className="designation">Restaurateur</span>
                       </div>
                     </div>
                   </div>
@@ -162,17 +157,15 @@ const Testimonial = () => {
                   <i className="material-symbols-outlined">star_half</i>
                 </div>
                 <p>
-                  Our company has seen significant improvement in efficiency and
-                  accuracy since implementing AI and ML technology in our
-                  processes...
+                 {"En consultant 'TsunamiWatch', j'ai vu une alerte de tsunami imminent. Sans perdre de temps, j'ai suivi la route d'évacuation indiquée sur le site. Alors que les vagues déferlaient sur la côte, j'étais déjà en hauteur, en sécurité. 'TsunamiWatch' m'a littéralement sauvé la vie ce jour-là. Je leur suis éternellement reconnaissant."}
                 </p>
                 <div className="client__wrap">
                   <div className="thumb">
-                    <Image src={kathryn} alt="img" />
+                    <Image src={sami} alt="img" />
                   </div>
                   <div className="content">
-                    <h5>Kathryn Mrphy</h5>
-                    <span className="designation">The Wait Disney Company</span>
+                    <h5>Sami</h5>
+                    <span className="designation">Consultant Clound</span>
                   </div>
                 </div>
               </div>
