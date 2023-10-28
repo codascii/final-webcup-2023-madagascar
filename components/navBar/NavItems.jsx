@@ -53,13 +53,13 @@ const NavItems = ({ active, setActive }) => {
     <ul className={`main-menu ${active && "active"}`}>
       {/* comp */}
       <li onClick={() => handleShowDropdown("home")}>
-        <Link href="URL:void(0)" className="d-flex">
-          <span>Home</span>
+        <a href="/" className="d-flex">
+          <span>Accueil</span>
           <span className="icons">
-            <i className="material-symbols-outlined">expand_more</i>
+            {/* <i className="material-symbols-outlined">expand_more</i> */}
           </span>
-        </Link>
-        <ul
+        </a>
+        {/* <ul
           className={`menu__imgchange  sub-menu ${
             showDropdown === "home" ? "d-lg-flex d-block" : ""
           }`}
@@ -145,11 +145,11 @@ const NavItems = ({ active, setActive }) => {
               </span>
             ))}
           </li>
-        </ul>
+        </ul> */}
       </li>
 
       {/* comp */}
-      <li onClick={() => handleShowDropdown("case")}>
+      {/* <li onClick={() => handleShowDropdown("case")}>
         <Link href="URL:void(0)" className="d-flex">
           <span>Case Studies</span>
           <span className="icons">
@@ -182,7 +182,7 @@ const NavItems = ({ active, setActive }) => {
             </li>
           ))}
         </ul>
-      </li>
+      </li> */}
 
       <li className="grid__style">
         <Link

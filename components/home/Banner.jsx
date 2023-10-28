@@ -22,7 +22,7 @@ const Banner = () => {
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="wXNv-x5zVgE"
+        videoId="ufoPEtcnkaQ"
         onClose={() => setOpen(false)}
       />
 
@@ -37,15 +37,15 @@ const Banner = () => {
               <div className="col-xxl-6 col-xl-6 col-lg-6">
                 <div className="banner__content">
                   <div className="content__box">
-                    <span className="d3 mb-0 text-white">Unleash the</span>
+                    <span className="d3 mb-0 text-white">Rester Informer</span>
                     <span className="d3 text-white">
-                      potential of <span className="theme">AI</span> and{" "}
-                      <span className="theme2">machine</span> learning
+                      des <span className="theme">CATASTROPHES NATURELLES</span> grace à{" "}
+                      <span className="theme2">L'Intéligence Artificiel</span>
                     </span>
                     <p className="text-white">
-                      Machine learning algorithms build a model based on sample
-                      data, known as training data, in order to make predictions
-                      or decisions...
+                    Grâce à des modèles prédictifs avancés, il est capable d'identifier et 
+                    d'alerter d'une catastrophe imminente jusqu'à 4 heures à l'avance, 
+                    donnant une chance cruciale aux communautés de se préparer et de se protéger.
                     </p>
                     <div className="btg__grp">
                       <Link href="/signin" className="cmn--btn">
