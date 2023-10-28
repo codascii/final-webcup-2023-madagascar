@@ -21,10 +21,9 @@ const Feature = () => {
           className="section__header section__center pb__60 wow fadeInUp"
           data-wow-duration="2s"
         >
-          <h2>Key Services Features</h2>
+          <h2> L'Excellence de l'IA de l'Indian Ocean Institute</h2>
           <p className="pb__32">
-            AI is the broader concept of machines being able to carry out tasks
-            in a way that would normally require human intelligence.
+          "L'Indian Ocean Institute se distingue par sa fusion de technologies de pointe au service de la prévision des catastrophes. Alliant sismomètres, satellites, bouées océaniques et capteurs volcaniques, l'Institut tire parti de chaque source de données pour alimenter son IA.
           </p>
           <Link href="/service-details" className="cmn--btn border__btn">
             <span>Get Started</span>
@@ -43,10 +42,9 @@ const Feature = () => {
                   <Image src={man} alt="icon" />
                 </div>
                 <div className="content">
-                  <h4>Robotic Automation</h4>
+                  <h4>Sismomètres Avancés</h4>
                   <p>
-                    Machine learning (ML), a fundamental concept of AI research
-                    since...
+                  Des capteurs spécialisés pour détecter les moindres mouvements tectoniques, fournissant des données en temps réel à l'IA...
                   </p>
                 </div>
               </div>
@@ -58,10 +56,9 @@ const Feature = () => {
                   <Image src={ai} alt="icon" />
                 </div>
                 <div className="content">
-                  <h4>Image Processing</h4>
+                  <h4>Satellites de Surveillance Climatique</h4>
                   <p>
-                    Machine learning (ML), a fundamental concept of AI research
-                    since...
+                  Des satellites équipés de capteurs pour surveiller les changements climatiques, les formations de cyclones et...
                   </p>
                 </div>
               </div>
@@ -73,10 +70,9 @@ const Feature = () => {
                   <Image src={cloud} alt="icon" />
                 </div>
                 <div className="content">
-                  <h4>Al For Cloud Services</h4>
+                  <h4>Réseau de Bouées Océaniques</h4>
                   <p>
-                    Machine learning (ML), a fundamental concept of AI research
-                    since...
+                  Des bouées déployées dans l'océan pour détecter les variations de niveau d'eau, aidant à..
                   </p>
                 </div>
               </div>
@@ -99,10 +95,9 @@ const Feature = () => {
                   <Image src={machine} alt="icon" />
                 </div>
                 <div className="content">
-                  <h4>Machine Learning</h4>
+                  <h4>Algorithmes d'Apprentissage Profond</h4>
                   <p>
-                    Machine learning (ML), a fundamental concept of AI research
-                    since...
+                  Des algorithmes qui analysent constamment des milliards de données pour détecter les modèles et..
                   </p>
                 </div>
               </div>
@@ -114,10 +109,9 @@ const Feature = () => {
                   <Image src={virtual} alt="icon" />
                 </div>
                 <div className="content">
-                  <h4>Virtual Reality</h4>
+                  <h4>Capteurs Volcaniques</h4>
                   <p>
-                    Machine learning (ML), a fundamental concept of AI research
-                    since...
+                  Des dispositifs placés à proximité des volcans actifs pour surveiller leur activité et prédire les éruptions imminentes...
                   </p>
                 </div>
               </div>
@@ -129,10 +123,9 @@ const Feature = () => {
                   <Image src={neurology} alt="icon" />
                 </div>
                 <div className="content">
-                  <h4>Deep Learning</h4>
+                  <h4>Système d'Alerte Intégré</h4>
                   <p>
-                    Machine learning (ML), a fundamental concept of AI research
-                    since...
+                  Une technologie qui reçoit des prédictions de l'IA et envoie automatiquement des alertes aux autorités et..
                   </p>
                 </div>
               </div>

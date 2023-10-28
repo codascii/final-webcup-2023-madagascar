@@ -3,9 +3,9 @@ const ContactForm = () => {
     <section className="contact__section bg__white pt-120 pb-120">
       <div className="container">
         <div className="section__header section__center pb__60">
-          <h2>Get in touch with us.</h2>
+          <h2>Prenez contact avec nous.</h2>
           <p>
-            Fill up the form and our team will get back to you within 24 hours
+          Remplissez le formulaire et notre équipe vous répondra dans les 24 heures.
           </p>
         </div>
         <div className="row justify-content-center">
@@ -15,14 +15,14 @@ const ContactForm = () => {
                 <div className="row g-4">
                   <div className="col-lg-6">
                     <div className="form-control">
-                      <label htmlFor="Name">Name</label>
+                      <label htmlFor="Name">Nom</label>
                       <input
                         type="text"
                         id="Name"
                         placeholder="Enter Your Mane..."
                         required
                       />
-                      <small>Error message</small>
+                      <small>Message d'erreur</small>
                     </div>
                   </div>
                   <div className="col-lg-6">
@@ -34,26 +34,26 @@ const ContactForm = () => {
                         placeholder="Enter Your Email..."
                         required
                       />
-                      <small>Error message</small>
+                      <small>Message d'erreur</small>
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="form-control">
-                      <label htmlFor="phone">Phone</label>
+                      <label htmlFor="phone">Telephone</label>
                       <input
                         type="number"
                         id="phone"
                         placeholder="Enter Your Number..."
                         required
                       />
-                      <small>Error message</small>
+                      <small>Message d'erreur</small>
                     </div>
                   </div>
                   <div className="col-lg-6">
-                    <label id="country">Country</label>
+                    <label id="country">Pays</label>
                     <div className="select-wrapper">
                       <select>
-                        <option value="1">Country...</option>
+                        <option value="1">Ville...</option>
                         <option value="1">....</option>
                         <option value="1">....</option>
                         <option value="1">....</option>
@@ -71,17 +71,17 @@ const ContactForm = () => {
                         rows="5"
                         placeholder="Enter Your Message..."
                       ></textarea>
-                      <small>Error message</small>
+                      <small>Message d'erreur</small>
                     </div>
                   </div>
                 </div>
                 <div className="submit__btn text-center mt-4">
                   <button type="submit" className="cmn--btn">
-                    <span>Send Message</span>
+                    <span>Envoyez Message</span>
                   </button>
                 </div>
                 <div className="thank_you">
-                  <p>Your Message is successfully send !</p>
+                  <p>Votre message a été envoyé avec succès !</p>
                 </div>
               </form>
             </div>

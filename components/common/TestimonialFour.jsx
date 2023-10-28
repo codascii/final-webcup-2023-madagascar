@@ -188,7 +188,7 @@ const TestimonialFour = () => {
                 className="section__header pb__32 wow fadeInUp"
                 data-wow-duration="2s"
               >
-                <h2>User experience reports on support and services</h2>
+                <h2>Témoignages des scientifiques de l'Indian Ocean Institut sur les avantages et la précision de l'IA</h2>
                 <p className="pb__32">
                   AI refers to the ability of a computer system to perform tasks
                   that would typically require human intelligence, such as

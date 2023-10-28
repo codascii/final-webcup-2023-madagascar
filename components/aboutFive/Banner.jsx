@@ -3,7 +3,7 @@ import SmallBanner from "../common/SmallBanner";
 
 const Banner = () => {
   return (
-    <SmallBanner title="About us - Style 05">
+    <SmallBanner title="Indian Ocean Institut">
       {/* Breadcrumb */}
       <Breadcrumb
         breadcrumbs={[

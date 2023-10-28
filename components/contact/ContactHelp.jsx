@@ -6,8 +6,8 @@ const ContactHelp = () => {
       {/* container- */}
       <div className="container">
         <div className="section__header section__center pb__60">
-          <h2>Need more help?</h2>
-          <p>Queries, complaints and feedback. We will be happy to serve you</p>
+          <h2>Besoin d'aide ?</h2>
+          <p>Questions, plaintes et commentaires. Nous serons heureux de vous servire</p>
         </div>
         <div className="row g-4">
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
@@ -17,8 +17,8 @@ const ContactHelp = () => {
               </div>
               <div className="cont">
                 <h5>Call Now</h5>
-                <Link href="#">(907) 555-0101</Link>
-                <Link href="#">(252) 555-0126</Link>
+                <Link href="#">0269123456</Link>
+                <Link href="#">0269123498</Link>
               </div>
             </div>
           </div>
@@ -29,8 +29,8 @@ const ContactHelp = () => {
               </div>
               <div className="cont">
                 <h5>Email Address</h5>
-                <Link href="3">sara.cruz@example.com</Link>
-                <Link href="#">bill.sanders@example.com</Link>
+                <Link href="3">contact@Altesphere.com</Link>
+                <Link href="#">Sarah@Altesphere.com</Link>
               </div>
             </div>
           </div>
@@ -40,9 +40,9 @@ const ContactHelp = () => {
                 <i className="material-symbols-outlined">pin_drop</i>
               </div>
               <div className="cont">
-                <h5>Location</h5>
-                <Link href="#">Royal Ln. Mesa, New Jersey 45463</Link>
-                <Link href="#">Thornridge Cir. Shiloh, Hawaii 81063</Link>
+                <h5>Localisation</h5>
+                <Link href="#">17 rue Kaweni</Link>
+                <Link href="#">97600 Mayotte</Link>
               </div>
             </div>
           </div>
