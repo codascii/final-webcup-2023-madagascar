@@ -12,11 +12,11 @@ export default function Services() {
       {/*ServicesMain section */}
       <ServicesMain />
 
-      {/*TestimonialTwo section */}
+      {/*TestimonialTwo section 
       <TestimonialTwo clss="bgsection" />
 
-      {/*Feature section */}
-      <Feature />
+      {/*Feature section 
+      <Feature />*/}
     </>
   );
 }
