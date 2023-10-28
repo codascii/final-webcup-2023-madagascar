@@ -50,6 +50,13 @@ Section css
     height: 100vh;
 }
 
+@media screen and (max-width: 991px) {
+    .map-container-page {
+            width: calc(100vw);
+            height: 100vh;
+        }
+}
+
 .desastre-info-container {
     z-index: 100px;
     position: absolute;

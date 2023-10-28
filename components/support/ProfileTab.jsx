@@ -7,60 +7,46 @@ const ProfileTab = () => {
       aria-labelledby="profile-tabterm"
     >
       <div className="same__condition__items text__box__none">
-        <h2>Privacy Policy</h2>
+        <h2>Utilisation d'Altesphere</h2>
         <p>
-          It is important to take care of the patient, to be followed by the
-          doctor, but it is a time of great pain and suffering. The mass but the
-          element requires time but the price of laughter. There is no such
-          thing as an easy time to target the disease. And he expected hunger
-          and poverty. But the bed vestibule mattis ullamcorper wants but the
-          corporal of disease.
+        Les responsabilités de l'utilisateur se réfèrent aux actions, 
+        comportements et obligations attendus d'un utilisateur lorsqu'il accède ou utilise un service, 
+        un site web ou une application. Elles servent à garantir une utilisation appropriée et sécurisée, 
+        à protéger les droits d'autres utilisateurs et de l'entité fournissant le service, 
+        et à éviter des activités nuisibles ou illégales. En bref,
+         cela signifie que l'utilisateur doit respecter les règles établies et utiliser le service de manière responsable et éthique.
         </p>
       </div>
       <div className="same__condition__items text__box__none">
-        <h3>Use Terms for Itechex services</h3>
+        <h3>Description du Service</h3>
         <p>
-          He wants but the body of the disease needs to decorate the mass. It is
-          a pleasure that God wants to decorate it with a bow. It is easy, but
-          who benefits from the disease? The life of the shooters of the CNN
-          media. Now the chocolate cartoon is on. Life is a wonderful place.
-          Purus in the mass of time nor feugiat nisl the price of that brown.
-          But now he wants to become a member. Drink at the casino or quiver. A
-          mass of mass of ultrices. To decorate the bronze element of Euismod,
-          if anyone is eleifend. In order to monitor the price of the monitor,
-          there is no power and the monitor has been suspended. It&#39;s
-          convenient, but it&#39;s necessary to have a good taste.
+        Altesphere fournit des prévisions météorologiques, 
+        des alertes et des informations connexes. 
+        Ces services sont fournis tels quels, et
+         nous ne garantissons pas leur exactitude ou leur disponibilité continue.
         </p>
       </div>
       <div className="same__condition__items text__box__none">
-        <h2>Privacy Policy</h2>
+        <h2>Limitation de Responsabilité </h2>
         <p>
-          For there is no need for property now. Vulputate football chocolate
-          recipe hairstyles for yeast or yeast. But for the free one, the taste
-          is ugly . But the bed of the urn of two valleys. But tellus at urn
-          condimentum mattis pellentesque id nibh. We have a pillow for
-          tomorrow, but now.
+        Les informations fournies par Altesphere sont basées sur des prévisions et des modèles. 
+        Elles ne doivent pas être utilisées pour prendre des décisions critiques qui peuvent entraîner des dommages ou des blessures.
+         Nous ne sommes pas responsables des décisions prises sur la base des informations fournies sur notre site.
         </p>
       </div>
       <div className="same__condition__items text__box__none">
-        <h4>Cookies and tracking</h4>
+        <h4>Utilisation des Informations</h4>
         <p>
-          Let&#39;s do the homework now. The fear of some eleifent mi in no way.
-          Let us live with dignity tomorrow tincidunt lobortis feugiat. There
-          was some flattery too. A wise man and an employee. To decorate the
-          bronze element of euismod, if anyone is eleifend than the adipiscing
-          life. That course put some of my teenagers&#39; fears at bay.
+        Les utilisateurs sont autorisés à utiliser les informations de notre site à des fins personnelles. 
+        Toute reproduction, distribution ou utilisation commerciale sans notre autorisation écrite est interdite.
         </p>
       </div>
       <div className="same__condition__items text__box__none">
-        <h2>User responsibilities</h2>
+        <h2>Propriété Intellectuelle</h2>
         <p>
-          Let us live well, but we need the bow, said Varus. I&#39;m tired of
-          life now but I want to be dignified. The cat needs to be chased by
-          arrows. It is important to pursue the education of the people who live
-          in the disease. Mus mauris vitae ultricies leo whole maleuada.
-          That&#39;s the truck that was used for the sauce. Pain cartoon itself
-          now.
+        Tous les contenus, logos, graphiques et
+         autres matériels sur ce site sont la propriété de Altesphere 
+         et sont protégés par les lois sur les droits d'auteur.
         </p>
       </div>
     </div>
