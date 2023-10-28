@@ -7,71 +7,52 @@ const HomeTab = () => {
       aria-labelledby="home-tabterm"
     >
       <div className="same__condition__items text__box__none">
-        <h2>Support</h2>
+        <h2>Conditions d’utilisation des services Altesphere</h2>
         <p>
-          It is important to take care of the patient, to be followed by the
-          doctor, but it is a time of great pain and suffering. The mass but the
-          element requires time but the price of laughter. There is no such
-          thing as an easy time to target the disease. And he expected hunger
-          and poverty. But the bed vestibule mattis ullamcorper wants but the
-          corporal of disease.
+        Les termes et conditions (ou conditions générales d'utilisation) définissent les règles à suivre lors de l'utilisation d'un site web ou d'un service. Si vous envisagez de créer vos propres termes et conditions pour un site web, il est fortement recommandé de consulter un avocat pour s'assurer qu'ils sont conformes à la loi applicable dans votre pays ou région.
+
+Cela dit, voici un exemple simplifié de termes et conditions pour un site web fictif. Ce n'est qu'un point de départ et ne devrait pas être utilisé tel quel sans consultation juridique :
         </p>
       </div>
       <div className="same__condition__items text__box__none">
-        <h3>Use Terms for Itechex services</h3>
+        <h3>Utilisation des services Altesphere</h3>
         <p>
-          He wants but the body of the disease needs to decorate the mass. It is
-          a pleasure that God wants to decorate it with a bow. It is easy, but
-          who benefits from the disease? The life of the shooters of the CNN
-          media. Now the chocolate cartoon is on. Life is a wonderful place.
-          Purus in the mass of time nor feugiat nisl the price of that brown.
-          But now he wants to become a member. Drink at the casino or quiver. A
-          mass of mass of ultrices. To decorate the bronze element of Euismod,
-          if anyone is eleifend. In order to monitor the price of the monitor,
-          there is no power and the monitor has been suspended. It&#39;s
-          convenient, but it&#39;s necessary to have a good taste.
+        Collecte de Données : L'algorithme s'appuie sur un réseau massif de capteurs dispersés à travers le monde,
+         y compris des sismomètres, des satellites, des ballons météo et bien d'autres.
+          Ces dispositifs transmettent constamment des informations en temps réel, fournissant une vue d'ensemble de l'activité terrestre, maritime et atmosphérique..
         </p>
       </div>
       <div className="same__condition__items text__box__none">
-        <h2>Privacy Policy</h2>
+        <h2>Politique de la vie priver</h2>
         <p>
-          For there is no need for property now. Vulputate football chocolate
-          recipe hairstyles for yeast or yeast. But for the free one, the taste
-          is ugly . But the bed of the urn of two valleys. But tellus at urn
-          condimentum mattis pellentesque id nibh. We have a pillow for
-          tomorrow, but now.
+        La politique de la vie privée, également appelée politique de confidentialité,
+         est un document officiel d'une entreprise ou d'un site web qui explique comment les informations personnelles des utilisateurs
+          ou clients sont recueillies, utilisées, stockées et protégées. 
+          Elle vise à informer les utilisateurs sur leurs droits et les pratiques de l'entité en matière de données,
+           garantissant ainsi une transparence et une confiance accrues.
         </p>
-        <ul className="list">
-          <li>Cras sed felis eget velit aliquet. Morbi quis commodo odio</li>
-          <li>Cras sed felis eget velit aliquet. Morbi quis commodo odio</li>
-          <li>Cras sed felis eget velit aliquet. Morbi quis commodo odio</li>
-        </ul>
+        
       </div>
       <div className="same__condition__items text__box__none">
-        <h4>Cookies and tracking</h4>
+        <h4>Les Cookies</h4>
         <p>
-          Let&#39;s do the homework now. The fear of some eleifent mi in no way.
-          Let us live with dignity tomorrow tincidunt lobortis feugiat. There
-          was some flattery too. A wise man and an employee. To decorate the
-          bronze element of euismod, if anyone is eleifend than the adipiscing
-          life. That course put some of my teenagers&#39; fears at bay.
+        Les cookies sont de petits fichiers qui sont stockés sur l'ordinateur de l'utilisateur par le navigateur web à la demande d'un serveur.
+         Ils peuvent contenir des informations sur la navigation de l'utilisateur,
+          ses préférences ou son identification pour un service en ligne.
+           En raison de la nature de ces informations, de nombreuses juridictions ont établi des règles spécifiques pour la manière dont les sites web peuvent utiliser les cookies,
+            en particulier pour protéger la vie privée des utilisateurs.
         </p>
       </div>
       <div className="same__condition__items text__box__none">
-        <h2>User responsibilities</h2>
+        <h2>Les responsabilités de l'utilisateur</h2>
         <p>
-          Let us live well, but we need the bow, said Varus. I&#39;m tired of
-          life now but I want to be dignified. The cat needs to be chased by
-          arrows. It is important to pursue the education of the people who live
-          in the disease. Mus mauris vitae ultricies leo whole maleuada.
-          That&#39;s the truck that was used for the sauce. Pain cartoon itself
-          now.
-        </p>
-        <ul className="list">
-          <li>Cras sed felis eget velit aliquet. Morbi quis commodo odio</li>
-          <li>Cras sed felis eget velit aliquet. Morbi quis commodo odio</li>
-          <li>Cras sed felis eget velit aliquet. Morbi quis commodo odio</li>
-        </ul>
+        Les responsabilités de l'utilisateur se réfèrent aux actions,
+         comportements et obligations attendus d'un utilisateur lorsqu'il accède ou utilise un service, un site web ou une application. 
+         Elles servent à garantir une utilisation appropriée et sécurisée,
+          à protéger les droits d'autres utilisateurs et de l'entité fournissant le service,
+          et à éviter des activités nuisibles ou illégales.
+           En bref, cela signifie que l'utilisateur doit respecter les règles établies et utiliser le service de manière responsable et éthique.
+        </p>  
       </div>
     </div>
   );

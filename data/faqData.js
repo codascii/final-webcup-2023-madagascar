@@ -1,51 +1,51 @@
 const faqData = [
   {
     id: 1,
-    title: " What is the difference between AI and ML?",
+    title: "  Qu'est-ce qui cause [type spécifique de catastrophe, par exemple, un tremblement de terre ou un ouragan] ?",
     details:
-      "Learn the basics: Acquire a basic understanding of AI and ML concepts and technologies by reading books, taking online courses, or attending workshops.",
+      "Les causes varient selon le type de catastrophe. Par exemple, un tremblement de terre est généralement causé par le mouvement des plaques tectoniques sous la croûte terrestre, tandis qu'un ouragan résulte de perturbations atmosphériques et de la température de l'eau de mer.",
   },
   {
     id: 2,
-    title: "What are some common applications of AI and ML?",
+    title: "Comment puis-je me préparer à une catastrophe naturelle ?",
     details:
-      "Learn the basics: Acquire a basic understanding of AI and ML concepts and technologies by reading books, taking online courses, or attending workshops.",
+      " Il est essentiel d'avoir un plan d'évacuation, de stocker des fournitures d'urgence, de rester informé grâce aux bulletins météorologiques et de suivre les instructions des autorités locales.",
   },
   {
     id: 3,
-    title: " How can I get started with AI and ML?",
+    title: " Comment les scientifiques prévoient-ils les catastrophes naturelles ? Est-ce fiable ?",
     details:
-      "Learn the basics: Acquire a basic understanding of AI and ML concepts and technologies by reading books, taking online courses, or attending workshops.",
+      "Les scientifiques utilisent une combinaison d'instruments, de données historiques et de modèles informatiques pour prévoir les catastrophes. Bien que ces prédictions soient de plus en plus précises avec les avancées technologiques, aucune prévision n'est infaillible.",
   },
   {
     id: 4,
-    title: "What skills do I need to work in AI and ML?",
+    title: "Quelle est la différence entre une alerte, une veille et une mise en garde pour une catastrophe spécifique ?",
     details:
-      "Learn the basics: Acquire a basic understanding of AI and ML concepts and technologies by reading books, taking online courses, or attending workshops.",
+      "Une veille signifie qu'une catastrophe est possible dans la région, une alerte indique qu'une catastrophe est imminente ou se produit, et une mise en garde est un avis formel indiquant la nécessité de prendre des mesures immédiates.",
   },
   {
     id: 5,
-    title: "What are the benefits of using AI and ML in business?",
+    title: "Où puis-je trouver un abri ou un centre d'évacuation ?",
     details:
-      "Learn the basics: Acquire a basic understanding of AI and ML concepts and technologies by reading books, taking online courses, or attending workshops.",
+      "Consultez le site web de votre municipalité ou contactez les services d'urgence locaux pour obtenir une liste des abris et des centres d'évacuation dans votre région.",
   },
   {
     id: 6,
-    title: "Are there any limitations to AI and ML?",
+    title: " Quels sont les signes avant-coureurs d'une [catastrophe spécifique] ?",
     details:
-      "Learn the basics: Acquire a basic understanding of AI and ML concepts and technologies by reading books, taking online courses, or attending workshops.",
+      "Les signes varient. Par exemple, pour un tremblement de terre, vous pourriez ressentir une secousse initiale légère, tandis qu'un ouragan pourrait être précédé d'une augmentation des précipitations et des vents.",
   },
   {
     id: 7,
-    title: "What are the different types of AI?",
+    title: " Comment puis-je protéger mon domicile ou mon entreprise contre [type de catastrophe] ?",
     details:
-      "Learn the basics: Acquire a basic understanding of AI and ML concepts and technologies by reading books, taking online courses, or attending workshops.",
+      "Il est recommandé d'ancrer les structures, de sécuriser les objets lourds, d'installer des barrières contre les inondations et d'avoir un plan d'évacuation en place.",
   },
   {
     id: 8,
-    title: "What are the potential benefits of AI?",
+    title: "Quels sont les impacts à long terme de [type de catastrophe] sur l'environnement et les communautés ?",
     details:
-      "Learn the basics: Acquire a basic understanding of AI and ML concepts and technologies by reading books, taking online courses, or attending workshops.",
+      "Les impacts peuvent inclure la perturbation des écosystèmes, la perte de logements et d'infrastructures, ainsi que des effets économiques et sanitaires durables sur les communautés.",
   },
 ];
 

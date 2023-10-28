@@ -9,22 +9,22 @@ const Socila = () => {
   return (
     <ul className="social__standard">
       <li>
-        <Link href="#" className="social__item">
+        <Link href="https://www.facebook.com/?locale=fr_FR" className="social__item">
           <Image src={facebook} alt="icon" className="img-fluid" />
         </Link>
       </li>
       <li>
-        <Link href="#" className="social__item social__itemtwo">
+        <Link href="https://www.instagram.com/" className="social__item social__itemtwo">
           <Image src={instagram} alt="icon" className="img-fluid" />
         </Link>
       </li>
       <li>
-        <Link href="#" className="social__item social__itemthree">
+        <Link href="https://www.instagram.com/" className="social__item social__itemthree">
           <Image src={twitter} alt="icon" className="img-fluid" />
         </Link>
       </li>
       <li>
-        <Link href="#" className="social__item social__itemfour">
+        <Link href="https://fr.linkedin.com/" className="social__item social__itemfour">
           <Image src={linkedin} alt="icon" className="img-fluid" />
         </Link>
       </li>

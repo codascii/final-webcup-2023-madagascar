@@ -36,7 +36,7 @@ const AboutAIFive = () => {
                     Innovation à la pointe
                     </span>
                     <span>
-                    L'Indian Ocean Institute mène la voie avec une IA révolutionnaire qui prédit les catastrophes naturelles.
+                    L&pos;Indian Ocean Institute mène la voie avec une IA révolutionnaire qui prédit les catastrophes naturelles.
                     </span>
                   </span>
                 </li>
@@ -49,7 +49,7 @@ const AboutAIFive = () => {
                     Au service de la communauté
                     </span>
                     <span>
-                    L'Institut s'engage à protéger les vies grâce à la technologie et à l'information.
+                    L&pos;Institut s&pos;engage à protéger les vies grâce à la technologie et à l&pos;information.
                     </span>
                   </span>
                 </li>
@@ -62,7 +62,7 @@ const AboutAIFive = () => {
                     Science au service de la sécurité
                     </span>
                     <span>
-                    L'Institut allie recherche de pointe et engagement communautaire pour un avenir plus sûr.
+                    L&apos;Institut allie recherche de pointe et engagement communautaire pour un avenir plus sûr.
                     </span>
                   </span>
                 </li>

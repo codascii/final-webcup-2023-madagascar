@@ -1,0 +1,26 @@
+.left-nav {
+    width: 300px;
+    height: calc(100vh - 90px);
+    background-color: #ffffff;
+    // position: absolute;
+    // left: 0px;
+    // bottom: 0px;
+    // z-index: 200;
+    color: #454545;
+    padding-top: 90px;
+}
+
+.left-desastre {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        background-color: #F2F2F2;
+        cursor: pointer;
+    }
+
+    .icon {
+        margin-right: 10px;
+    }
+}

@@ -14,15 +14,10 @@ const AboutAIOne = () => {
             <div className="about__content">
               <div className="section__header">
                 <h2 className="wow fadeInUp" data-wow-duration="2s">
-                  The world&#39;s leading AI and machine learning company
+                Prévoir Aujourd'hui, Protéger Demain
                 </h2>
                 <p className="wow fadeInDown" data-wow-duration="2s">
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don&#39;t
-                  look even slightly believable. If you are going to use a
-                  passage of Lorem Ipsum, you need to be sure there isn&#39;t
-                  anything embarrassing hidden in the middle of text.
+                L'Indian Ocean Institute est à l'avant-garde de la technologie prédictive, avec une intelligence artificielle conçue pour anticiper les défis imprévus de la nature. Grâce à une combinaison de recherche rigoureuse et d'innovation continue, nous sommes déterminés à offrir une sécurité accrue à travers des prédictions précises et opportunes.
                 </p>
               </div>
               <ul className="about__chack wow fadeInDown">
@@ -30,25 +25,25 @@ const AboutAIOne = () => {
                   <span className="icon">
                     <i className="material-symbols-outlined">task_alt</i>
                   </span>
-                  <span>Talent Advisory Team</span>
+                  <span>Apprentissage Continu</span>
                 </li>
                 <li>
                   <span className="icon">
                     <i className="material-symbols-outlined">task_alt</i>
                   </span>
-                  <span>100% Security System</span>
+                  <span>Précision Inégalée</span>
                 </li>
                 <li>
                   <span className="icon">
                     <i className="material-symbols-outlined">task_alt</i>
                   </span>
-                  <span>High-Quality Results</span>
+                  <span>Réactivité</span>
                 </li>
                 <li>
                   <span className="icon">
                     <i className="material-symbols-outlined">task_alt</i>
                   </span>
-                  <span>24 Hours Supports</span>
+                  <span>Innovation constante</span>
                 </li>
               </ul>
               <Link href="/about" className="cmn--btn">

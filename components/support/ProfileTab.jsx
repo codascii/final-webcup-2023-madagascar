@@ -41,11 +41,6 @@ const ProfileTab = () => {
           condimentum mattis pellentesque id nibh. We have a pillow for
           tomorrow, but now.
         </p>
-        <ul className="list">
-          <li>Cras sed felis eget velit aliquet. Morbi quis commodo odio</li>
-          <li>Cras sed felis eget velit aliquet. Morbi quis commodo odio</li>
-          <li>Cras sed felis eget velit aliquet. Morbi quis commodo odio</li>
-        </ul>
       </div>
       <div className="same__condition__items text__box__none">
         <h4>Cookies and tracking</h4>
@@ -67,11 +62,6 @@ const ProfileTab = () => {
           That&#39;s the truck that was used for the sauce. Pain cartoon itself
           now.
         </p>
-        <ul className="list">
-          <li>Cras sed felis eget velit aliquet. Morbi quis commodo odio</li>
-          <li>Cras sed felis eget velit aliquet. Morbi quis commodo odio</li>
-          <li>Cras sed felis eget velit aliquet. Morbi quis commodo odio</li>
-        </ul>
       </div>
     </div>
   );
