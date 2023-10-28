@@ -126,23 +126,23 @@ const FooterFour = () => {
                     <h4>Contact</h4>
                   </div>
                   <div className="widget__link">
-                    <Link href="/" className="footer__contact__items">
+                    <Link href="tel:0269123456" className="footer__contact__items">
                       <span className="icon">
-                        <i className="material-symbols-outlined">AU</i>
+                        <i className="material-symbols-outlined">T</i>
                       </span>
                       <span className="fcontact__content">0269123456</span>
                     </Link>
-                    <Link href="/" className="footer__contact__items">
+                    <Link href="mailto:contact@altesphere.com" target="_blank" className="footer__contact__items">
                       <span className="icon icontwo">
                         <i className="material-symbols-outlined">
                          M
                         </i>
                       </span>
                       <span className="fcontact__content">
-                      contact@AlteSphere.com
+                      contact@alteSphere.com
                       </span>
                     </Link>
-                    <Link href="/" className="footer__contact__items">
+                    <Link href="javascript:void(0)" desabled className="footer__contact__items">
                       <span className="icon iconthree">
                         <span className="material-symbols-outlined">
                           pin_drop
@@ -164,12 +164,13 @@ const FooterFour = () => {
               <Link href="/" className="intellicon">
               Altesphere AI
               </Link>
-               .Conçus par{" "}
+                Developed by{" "}
               <Link
-                href="https://themeforest.net/user/pixelaxis"
+                href="https://houmadev.com"
+target="_blank"
                 className="theme"
               >
-                 HoumaDev RAIV
+                 Houmadev
               </Link>
             </p>
             <ul className="footer__bottom__link">
