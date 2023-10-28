@@ -23,9 +23,7 @@ const FooterThree = ({ clss = "footer__section__four" }) => {
                     </Link>
                   </div>
                   <p className="pb__20">
-                    Artificial Intelligence (AI) and Machine Learning (ML) are
-                    closely related technologies that enable computers to learn
-                    from data and make predictions
+                  Une IA, ou intelligence artificielle, est un programme informatique conçu pour imiter certaines tâches humaines, comme réfléchir ou apprendre.
                   </p>
                   <ul className="social">
                     <li>
@@ -121,24 +119,25 @@ const FooterThree = ({ clss = "footer__section__four" }) => {
               <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
                 <div className="footer__widget">
                   <div className="widget__head">
-                    <h4>Quick Links</h4>
+                    <h4>liens rapides</h4>
                   </div>
-                  <div className="widget__link">
-                    <Link href="/about" className="link">
-                      About us
+                 < div className="widget__link">
+                    <Link href="https://renass.unistra.fr/fr/zones/" className="link">
+                    Renass
                     </Link>
-                    <Link href="/studies-one" className="link">
-                      Projects
+                    <Link href="https://meteofrance.com/" className="link">
+                    MeteoFrance
                     </Link>
-                    <Link href="/services" className="link">
-                      Services
+                    <Link href="https://www.cycloneoi.com/archives-blog/le-coin-expert/l-ecmwf-a-l-heure-de-l-intelligence-artificielle-et-du-machine-learning.html" className="link">
+                    CEPMMT
                     </Link>
-                    <Link href="/pricing" className="link">
-                      Pricing Plan
+                    <Link href="https://www.accuweather.com/fr/mg/antananarivo/227088/weather-forecast/227088" className="link">
+                    AccuWeather
                     </Link>
-                    <Link href="/shop" className="link">
-                      Shop
+                    <Link href="/signuhttps://www.wunderground.com/" className="link">
+                    Weather Underground 
                     </Link>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -148,14 +147,14 @@ const FooterThree = ({ clss = "footer__section__four" }) => {
             <p>
               Copyright &copy;2023{" "}
               <Link href="/" className="intellicon">
-                Intellicon
+              Altesphere AI
               </Link>
-              . Designed By{" "}
+               Designed By{" "}
               <Link
                 href="https://themeforest.net/user/pixelaxis"
                 className="theme"
               >
-                Pixelaxis
+                 HoumaDev RAIV
               </Link>
             </p>
             <ul className="footer__bottom__link">
@@ -163,15 +162,14 @@ const FooterThree = ({ clss = "footer__section__four" }) => {
                 <Link href="/support">Support</Link>
               </li>
               <li>
-                <Link href="/support">Privacy policy</Link>
+                <Link href="/support">Politique de confidentialité</Link>
               </li>
               <li>
-                <Link href="/support">Terms of condition</Link>
+                <Link href="/support">Terme et condition</Link>
               </li>
             </ul>
           </div>
         </div>
-      </div>
       {/* container */}
       {/* footer mask */}
       <div className="footer__mask">

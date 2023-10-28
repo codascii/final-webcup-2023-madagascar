@@ -23,9 +23,7 @@ const FooterFour = () => {
                     </Link>
                   </div>
                   <p className="pb__20">
-                    Artificial Intelligence (AI) and Machine Learning (ML) are
-                    closely related technologies that enable computers to learn
-                    from data and make predictions
+                  AlteSphere est un algorithme révolutionnaire basé sur l'intelligence artificielle. En utilisant une combinaison de données provenant de sismomètres, satellites, ballons météorologiques et d'autres capteurs stratégiquement placés autour du globe.
                   </p>
                   <ul className="social">
                     <li>
@@ -74,11 +72,11 @@ const FooterFour = () => {
               <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
                 <div className="footer__widget">
                   <div className="widget__head">
-                    <h4>Quick Links</h4>
+                    <h4>liens rapides</h4>
                   </div>
                   <div className="widget__link">
                     <Link href="/about" className="link">
-                      About us
+                    À propos de nous
                     </Link>
                     <Link href="/studies-one" className="link">
                       Projects
@@ -101,23 +99,23 @@ const FooterFour = () => {
               <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
                 <div className="footer__widget">
                   <div className="widget__head">
-                    <h4>Services</h4>
+                    <h4>Liens utils</h4>
                   </div>
                   <div className="widget__link">
-                    <Link href="/blocks-working" className="link">
-                      Robotic Automation
+                    <Link href="https://renass.unistra.fr/fr/zones/" className="link">
+                    Renass
                     </Link>
-                    <Link href="/shop" className="link">
-                      Predictive Analytic
+                    <Link href="https://meteofrance.com/" className="link">
+                    MeteoFrance
                     </Link>
-                    <Link href="/signup" className="link">
-                      Deep Learning
+                    <Link href="https://www.cycloneoi.com/archives-blog/le-coin-expert/l-ecmwf-a-l-heure-de-l-intelligence-artificielle-et-du-machine-learning.html" className="link">
+                    CEPMMT
                     </Link>
-                    <Link href="/signup" className="link">
-                      Statistic
+                    <Link href="https://www.accuweather.com/fr/mg/antananarivo/227088/weather-forecast/227088" className="link">
+                    AccuWeather
                     </Link>
-                    <Link href="/signup" className="link">
-                      Data Mining
+                    <Link href="/signuhttps://www.wunderground.com/" className="link">
+                    Weather Underground 
                     </Link>
                   </div>
                 </div>
@@ -130,18 +128,18 @@ const FooterFour = () => {
                   <div className="widget__link">
                     <Link href="/" className="footer__contact__items">
                       <span className="icon">
-                        <i className="material-symbols-outlined">add_call</i>
+                        <i className="material-symbols-outlined">AU</i>
                       </span>
-                      <span className="fcontact__content">(406) 555-0120</span>
+                      <span className="fcontact__content">(+262) 23 25 26</span>
                     </Link>
                     <Link href="/" className="footer__contact__items">
                       <span className="icon icontwo">
                         <i className="material-symbols-outlined">
-                          mark_as_unread
+                         M
                         </i>
                       </span>
                       <span className="fcontact__content">
-                        example@example.com
+                        HoumaDevRaiv@mail.com
                       </span>
                     </Link>
                     <Link href="/" className="footer__contact__items">
@@ -151,7 +149,7 @@ const FooterFour = () => {
                         </span>
                       </span>
                       <span className="fcontact__content">
-                        Westheimer Rd. Santa Ana, Illinois
+                      47 Rue des Marguerites,
                       </span>
                     </Link>
                   </div>
@@ -163,14 +161,14 @@ const FooterFour = () => {
             <p>
               Copyright &copy;2023{" "}
               <Link href="/" className="intellicon">
-                Intellicon
+              Altesphere AI
               </Link>
-              . Designed By{" "}
+               .Conçus par{" "}
               <Link
                 href="https://themeforest.net/user/pixelaxis"
                 className="theme"
               >
-                Pixelaxis
+                 HoumaDev RAIV
               </Link>
             </p>
             <ul className="footer__bottom__link">
@@ -178,10 +176,10 @@ const FooterFour = () => {
                 <Link href="/support">Support</Link>
               </li>
               <li>
-                <Link href="/support">Privacy policy</Link>
+                <Link href="/support">Politique de confidentialité</Link>
               </li>
               <li>
-                <Link href="/support">Terms of condition</Link>
+                <Link href="/support">Terme et condition</Link>
               </li>
             </ul>
           </div>
