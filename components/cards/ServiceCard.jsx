@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import slugify from "slugify";
 
 const ServiceCard = ({ itm }) => {
   const { title, details, icon, clss } = itm;
@@ -11,7 +12,7 @@ const ServiceCard = ({ itm }) => {
       </div>
       <div className="content">
         <h4>
-          <Link href="/service-details">{title}</Link>
+          <Link href={`/service-details?name=${slugify(title,{replacement:'-',lower:true})}`}>{title}</Link>
         </h4>
         <p>{details}</p>
       </div>

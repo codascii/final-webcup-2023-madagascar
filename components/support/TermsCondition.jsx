@@ -36,7 +36,7 @@ const TermsCondition = () => {
                     aria-controls="profileterm"
                     aria-selected="false"
                   >
-                    Privacy Policy
+                    Vie privée et sécurité 
                   </button>
                 </li>
                 <li className="nav-item" role="presentation">
