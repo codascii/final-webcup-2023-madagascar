@@ -59,9 +59,9 @@ const AboutAIOne = () => {
           <div className="col-xxl-1 col-xl-1 col-lg-1"></div>
           <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-9 col-sm-9">
             <div className="about__thumb">
-              {/* <div className="brain__element">
+              <div className="brain__element">
                 <Image src={brain_element} alt="breain" className="img-fluid" />
-              </div> */}
+              </div>
               <Image src={about1} alt="about" className="img-fluid" />
             </div>
           </div>

@@ -23,7 +23,7 @@ const ServicesMain = () => {
           </div>
 
           {/* Pagination */}
-          <Pagination />
+          {/* <Pagination /> */}
         </div>
       </div>
       {/* container */}
