@@ -49,7 +49,7 @@ const Banner = () => {
                     </p>
                     <div className="btg__grp">
                       <Link href="/signin" className="cmn--btn">
-                        <span>Get Started</span>
+                        <span> Voir les prédictions</span>
                       </Link>
                       <button
                         className="play__btn video-btn bg-transparent border-0 text-white"
@@ -60,7 +60,7 @@ const Banner = () => {
                             play_arrow
                           </i>
                         </span>
-                        <span>Watch Intro Video</span>
+                        <span>Je regarde la vidéo d'intro</span>
                       </button>
                     </div>
                   </div>
