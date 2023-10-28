@@ -17,7 +17,7 @@ const AboutAIFive = () => {
             <div className="about__content">
               <div className="section__header">
                 <h2 className="wow fadeInUp" data-wow-duration="2s">
-                L'Indian Ocean Institut
+                L&pos;Indian Ocean Institut
                 </h2>
                 <p className="wow fadeInUp" data-wow-duration="2.5s">
                 Au cours des quatre dernières décennies, le monde a connu une augmentation alarmante des catastrophes naturelles. Depuis 2012, chaque année, en moyenne, 700 événements destructeurs touchent notre planète. Inondations, tremblements de terre, tsunamis, éruptions volcaniques, méga-feux, tempêtes, ouragans, typhons, cyclones... la liste est longue et les conséquences dévastatrices.
@@ -36,7 +36,7 @@ const AboutAIFive = () => {
                     Innovation à la pointe
                     </span>
                     <span>
-                    L'Indian Ocean Institute mène la voie avec une IA révolutionnaire qui prédit les catastrophes naturelles.
+                    L&pos;Indian Ocean Institute mène la voie avec une IA révolutionnaire qui prédit les catastrophes naturelles.
                     </span>
                   </span>
                 </li>
@@ -49,7 +49,7 @@ const AboutAIFive = () => {
                     Au service de la communauté
                     </span>
                     <span>
-                    L'Institut s'engage à protéger les vies grâce à la technologie et à l'information.
+                    L&pos;Institut s&pos;engage à protéger les vies grâce à la technologie et à l&pos;information.
                     </span>
                   </span>
                 </li>
@@ -62,7 +62,7 @@ const AboutAIFive = () => {
                     Science au service de la sécurité
                     </span>
                     <span>
-                    L'Institut allie recherche de pointe et engagement communautaire pour un avenir plus sûr.
+                    L&apos;Institut allie recherche de pointe et engagement communautaire pour un avenir plus sûr.
                     </span>
                   </span>
                 </li>

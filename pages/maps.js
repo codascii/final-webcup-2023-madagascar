@@ -8,13 +8,18 @@ import Preloader from "@/components/preloader/Preloader";
 import FooterFour from "@/components/footer/FooterFour";
 import NavBar from "@/components/navBar/NavBar";
 
+const DesastreInfo = () => {
+	return <div className="desastre-info-container">teyteyt</div>;
+};
+
 export default function Maps() {
 	const { isLoaded } = useLoadScript({
 		googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
 	});
 	const [data, setData] = useState([]);
+
 	const fetchData = useCallback(() => {
-		fetch("http://api.houmadev.com/test/get-webcup-data", {
+		fetch("https://www.webcup.fr/24hAPI/disater2.php", {
 			method: "GET",
 			headers: {
 				"Content-Type": "application/json",
@@ -75,6 +80,8 @@ export default function Maps() {
 						</Marker>
 					))}
 			</GoogleMap>
+
+			<DesastreInfo />
 
 			{/*Feature section */}
 			{/* <Feature /> */}
