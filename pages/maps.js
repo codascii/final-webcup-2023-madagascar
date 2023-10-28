@@ -27,14 +27,19 @@ const DesastreInfo = ({ disastre }) => {
 	return (
 		<div className="desastre-info-container">
 			<div className="desastre-info">
-				<div>
+				<div style={{ display: "flex", alignItems: "center" }}>
 					<Image
 						src={imageName}
 						alt="test"
 						width={80}
 						height={80}
 						className="desastre-info-icon"
+						style={{
+							marginBottom: 20,
+							marginRight: 20,
+						}}
 					/>
+					<p>{disastre.type_disaster}</p>
 				</div>
 				<div className="line">
 					<p className="label">Nom de la catastrophe :</p>
@@ -44,14 +49,14 @@ const DesastreInfo = ({ disastre }) => {
 					<p className="label">Localisation :</p>
 					<p className="value">{disastre.location}</p>
 				</div>
-				<div className="line">
+				{/* <div className="line">
 					<p className="label">Longitude :</p>
 					<p className="value">{disastre.longitude}</p>
 				</div>
 				<div className="line">
 					<p className="label">Latitude :</p>
 					<p className="value">{disastre.latitude}</p>
-				</div>
+				</div> */}
 				<div className="line">
 					<p className="label">Élevation :</p>
 					<p className="value">{disastre.elevation}</p>
@@ -73,6 +78,10 @@ export default function Maps() {
 	});
 
 	const [data, setData] = useState([]);
+	const [mapCenter, setMapCenter] = useState({
+		lat: -18.907136,
+		lng: 47.5234304,
+	});
 	const fetchData = useCallback(() => {
 		fetch("https://www.webcup.fr/24hAPI/disater2.php", {
 			method: "GET",
@@ -96,6 +105,12 @@ export default function Maps() {
 	// Appeler fetchData() immédiatement
 	useEffect(() => {
 		fetchData();
+		fetch("https://ipapi.co/json")
+			.then((res) => res.json())
+			.then((data) =>
+				setMapCenter({ lat: data.latitude, lng: data.longitude })
+			)
+			.catch((err) => console.log(err));
 	}, [fetchData]);
 
 	useEffect(() => {
@@ -123,14 +138,16 @@ export default function Maps() {
 				<div style={{ position: "relative" }}>
 					{/* Map */}
 					<GoogleMap
-						zoom={3}
-						center={{ lat: -18.907136, lng: 47.5234304 }}
+						zoom={6}
+						center={mapCenter}
 						mapContainerClassName="map-container-page"
 						options={{
 							mapTypeControl: false,
 							streetViewControl: false,
+							mapId: "264594e53bcfbb0d",
 						}}
 						onLoad={(_map) => setMap(_map)}
+						// mapTypeId="264594e53bcfbb0d"
 					>
 						{data.length > 0 &&
 							data.map((d, index) => {
