@@ -48,7 +48,7 @@ const Banner = () => {
                     donnant une chance cruciale aux communautés de se préparer et de se protéger.
                     </p>
                     <div className="btg__grp">
-                      <Link href="/signin" className="cmn--btn">
+                      <Link href="/maps" className="cmn--btn">
                         <span> Voir les prédictions</span>
                       </Link>
                       <button
