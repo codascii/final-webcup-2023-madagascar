@@ -5,7 +5,9 @@ import Efective from "@/components/common/Efective";
 import Plan from "@/components/common/Plan";
 import Qualified from "@/components/common/Qualified";
 import Testimonial from "@/components/common/Testimonial";
-import FooterThree from "@/components/footer/FooterThree";
+// import FooterThree from "@/components/footer/FooterThree";
+import Footer from "@/components/footer/Footer";
+
 import NavBar from "@/components/navBar/NavBar";
 
 export default function About() {
@@ -35,8 +37,8 @@ export default function About() {
       {/*Brither section */}
       <Brither />
 
-      {/*FooterThree section */}
-      <FooterThree clss="footer__section__five" />
+      {/* Footer section */}
+      <Footer />
     </>
   );
 }

@@ -22,20 +22,20 @@ export default function Home() {
       {/* About AI One section */}
       <AboutAIOne />
 
-      {/* Feature section */}
-      <Feature />
+      {/* Feature section 
+      <Feature /> */}
 
-      {/* Qualified section */}
-      <Qualified />
+      {/* Qualified section 
+      <Qualified />*/}
 
-      {/* Capabilities section */}
-      <Capabilities />
+      {/* Capabilities section 
+      <Capabilities />*/}
 
-      {/* Plan section */}
-      <Plan />
+      {/* Plan section 
+      <Plan />*/}
 
-      {/* Efective section */}
-      <Efective />
+      {/* Efective section 
+      <Efective /> */}
 
       {/* Testimonial section */}
       <Testimonial />
