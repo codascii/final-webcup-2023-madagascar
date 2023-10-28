@@ -19,7 +19,7 @@ const Feature = () => {
           className="section__header section__center pb__60 wow fadeInUp"
           data-wow-duration="2s"
         >
-          <h2>Pionnier de l'excellence en Prédiction de Catastrophes</h2>
+          <h2>Pionnier de l&apos;excellence en Prédiction de Catastrophes</h2>
           <p>
           Combinant une collecte rigoureuse de données avec des algorithmes avancés, cette IA est un pilier de préparation face aux défis imprévisibles de la nature.
           </p>
@@ -69,7 +69,7 @@ const Feature = () => {
                 <div className="content">
                   <h5>Recherche et Analyse</h5>
                   <p>
-                  Des années de données naturelles pour alimenter l'IA...
+                  Des années de données naturelles pour alimenter l&apos;IA...
                   </p>
                 </div>
               </div>
@@ -80,7 +80,7 @@ const Feature = () => {
                 <div className="content">
                   <h5>Sécurité globale</h5>
                   <p>
-                  L'IA pour un monde plus sûr face aux calamités...
+                  L&apos;IA pour un monde plus sûr face aux calamités...
                   </p>
                 </div>
               </div>

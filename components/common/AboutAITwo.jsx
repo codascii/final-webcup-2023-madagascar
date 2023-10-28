@@ -20,7 +20,7 @@ const AboutAITwo = () => {
                 Algorithme Intelligent de Prévision des Catastrophes Naturelles (AIPCN)
                 </h2>
                 <p className="wow fadeInUp" data-wow-duration="2.2s">
-                L'Indian Ocean Institut est fier de présenter l'AIPCN, un algorithme révolutionnaire basé sur l'intelligence artificielle. En utilisant une combinaison de données provenant de sismomètres, satellites, ballons météorologiques et d'autres capteurs stratégiquement placés autour du globe, l'AIPCN analyse en temps réel les variations et anomalies. Grâce à des modèles prédictifs avancés, il est capable d'identifier et d'alerter d'une catastrophe imminente jusqu'à 4 heures à l'avance, donnant une chance cruciale aux communautés de se préparer et de se protéger
+                L&apos;Indian Ocean Institut est fier de présenter l&apos;AIPCN, un algorithme révolutionnaire basé sur l&apos;intelligence artificielle. En utilisant une combinaison de données provenant de sismomètres, satellites, ballons météorologiques et d&apos;autres capteurs stratégiquement placés autour du globe, l&apos;AIPCN analyse en temps réel les variations et anomalies. Grâce à des modèles prédictifs avancés, il est capable d&apos;identifier et d&apos;alerter d&apos;une catastrophe imminente jusqu&apos;à 4 heures à l&apos;avance, donnant une chance cruciale aux communautés de se préparer et de se protéger
                 </p>
               </div>
               <div
