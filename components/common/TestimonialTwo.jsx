@@ -30,7 +30,7 @@ const TestimonialTwo = ({ clss = "bg__white" }) => {
           <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <div className="testimonial__content testimonial__content__two">
               <div className="section__header mb-2">
-                <h2>User experience reports on support and services</h2>
+                <h2>Témoignages des scientifiques de l'Indian Ocean Institut sur les avantages et la précision de l'IA</h2>
                 <p>
                   AI is the broader concept of machines being able to perform
                   tasks that would normally require human intelligence, such as
@@ -49,17 +49,15 @@ const TestimonialTwo = ({ clss = "bg__white" }) => {
                       <i className="material-symbols-outlined">star_half</i>
                     </div>
                     <p>
-                      Our company has seen significant improvement in efficiency
-                      and accuracy since implementing AI and ML technology in
-                      our processes...
+                    "La mise en place de l'AIPCN a marqué un tournant dans la prévision des catastrophes naturelles. Avant, nous ne pouvions que réagir. Aujourd'hui, grâce à cet algorithme, nous avons le pouvoir d'anticiper, et cela sauve des vies."
                     </p>
                     <div className="client__wrap">
                       <div className="thumb">
                         <Image src={devon} alt="img" />
                       </div>
                       <div className="content">
-                        <h5>Devon Lane</h5>
-                        <span className="designation">Louis Vuitton</span>
+                        <h5>Dr. Ananya Roy</h5>
+                        <span className="designation">Spécialiste en Sismologie à l'Indian Ocean Institut</span>
                       </div>
                     </div>
                   </div>

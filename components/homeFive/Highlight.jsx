@@ -40,7 +40,7 @@ const Highlight = () => {
                 data-wow-duration="1.5s"
               >
                 <div className="content">
-                  <h4>Robotic Automation</h4>
+                  <h4>Sismomètres Avancés</h4>
                   <p>Machine learning (ML), a fundamental concept of AI</p>
                 </div>
                 <div className="icnos">
