@@ -30,7 +30,7 @@ const FooterTwo = () => {
                 <Link href="/pricing">Pricing Plan</Link>
               </li>
               <li>
-                <Link href="/shop">Shop</Link>
+                <Link href="/shop">Map</Link>
               </li>
             </ul>
             <ul className="social">

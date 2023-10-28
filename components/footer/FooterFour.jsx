@@ -91,7 +91,7 @@ const FooterFour = () => {
                       Pricing Plan
                     </Link>
                     <Link href="/shop" className="link">
-                      Shop
+                      Map
                     </Link>
                   </div>
                 </div>
