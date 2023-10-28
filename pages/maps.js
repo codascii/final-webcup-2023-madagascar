@@ -17,40 +17,12 @@ import VentIcon from "/public/img/markers/vent.gif";
 import VolcanIcon from "/public/img/markers/volcan.gif";
 import TremblementIcon from "/public/img/markers/planete-terre.gif";
 import InondationIcon from "/public/img/markers/inondations.gif";
+import LeftNav from "@/components/maps/LeftNav";
+import { getImageUrl, postDisaster } from "@/utils";
 // import CustomMarker from "/public/img/markers/feu.gif";
 
 const DesastreInfo = ({ disastre }) => {
-	let imageName = VolcanIcon;
-
-	switch (disastre.type_disaster) {
-		case "tremblements de terre":
-			imageName = TremblementIcon;
-			break;
-		case "éruption volcanique":
-			imageName = VolcanIcon;
-			break;
-		case "Cyclone":
-			imageName = VentIcon;
-			break;
-		case "Mégafeu":
-			imageName = FeuIcon;
-			break;
-		case "Ouragan":
-			imageName = TornadeIcon;
-			break;
-		case "Typhon":
-			imageName = TourbillonIcon;
-			break;
-		case "Inondations":
-			imageName = InondationIcon;
-			break;
-		case "tremblements de terre":
-			imageName = TornadeIcon;
-			break;
-
-		default:
-			break;
-	}
+	let imageName = getImageUrl(disastre.type_disaster);
 
 	return (
 		<div className="desastre-info-container">
@@ -93,84 +65,6 @@ const DesastreInfo = ({ disastre }) => {
 	);
 };
 
-const LeftNav = ({ disastres, map, setSelectedDesastre }) => {
-	const handleAlertClick = useCallback(
-		(value) => {
-			map.panTo({
-				lat: parseFloat(value.latitude),
-				lng: parseFloat(value.longitude),
-			});
-
-			// setSelectedDesastre(value);
-		},
-		[map]
-	);
-
-	return (
-		<div className="left-nav">
-			{disastres.length > 0
-				? disastres.map((d) => {
-						let imageName = VolcanIcon;
-
-						switch (d.type_disaster) {
-							case "tremblements de terre":
-								imageName = TremblementIcon;
-								break;
-							case "éruption volcanique":
-								imageName = VolcanIcon;
-								break;
-							case "Cyclone":
-								imageName = VentIcon;
-								break;
-							case "Mégafeu":
-								imageName = FeuIcon;
-								break;
-							case "Ouragan":
-								imageName = TornadeIcon;
-								break;
-							case "Typhon":
-								imageName = TourbillonIcon;
-								break;
-							case "Inondations":
-								imageName = InondationIcon;
-								break;
-							case "tremblements de terre":
-								imageName = TornadeIcon;
-								break;
-
-							default:
-								break;
-						}
-
-						return (
-							<div
-								key={d.id}
-								className="left-desastre"
-								onClick={() => {
-									// setSelectedDesastre(d);
-									handleAlertClick(d);
-								}}
-							>
-								<div className="icon">
-									<Image
-										src={imageName}
-										alt="test"
-										width={200}
-										height={200}
-										className="desastre-info-icon"
-									/>
-								</div>
-								<div>
-									{d.location} - {d.name}
-								</div>
-							</div>
-						);
-				  })
-				: null}
-		</div>
-	);
-};
-
 export default function Maps() {
 	const [map, setMap] = useState(/** @type google.maps.Map */ null);
 	const [setselectedDesastre, setSelectedDesastre] = useState(null);
@@ -190,6 +84,9 @@ export default function Maps() {
 			.then((d) => {
 				// code
 				setData(d);
+
+				// Envoie des données dans firebase
+				postDisaster(d);
 			})
 			.catch((error) => {
 				console.error("Err : ", error);
@@ -226,7 +123,7 @@ export default function Maps() {
 				<div style={{ position: "relative" }}>
 					{/* Map */}
 					<GoogleMap
-						zoom={5}
+						zoom={3}
 						center={{ lat: -18.907136, lng: 47.5234304 }}
 						mapContainerClassName="map-container-page"
 						options={{
@@ -236,30 +133,41 @@ export default function Maps() {
 						onLoad={(_map) => setMap(_map)}
 					>
 						{data.length > 0 &&
-							data.map((d, index) => (
-								<Marker
-									key={index}
-									position={{
-										lat: parseInt(d.latitude),
-										lng: parseInt(d.longitude),
-									}}
-									clickable
-									// icon={{
-									// 	url: <VolcanIcon />,
-									// 	scaledSize: new window.google.maps.Size(30, 30),
-									// }}
-									// options={{ icon: <VolcanIcon /> }}
-									onClick={(event) => {
-										map.panTo({
-											lat: parseFloat(d.latitude),
-											lng: parseFloat(d.longitude),
-										});
-										setSelectedDesastre(d);
-									}}
-								>
-									{/* <Image src={CustomMarker} alt="icon" /> */}
-								</Marker>
-							))}
+							data.map((d, index) => {
+								let imageName = getImageUrl(d.type_disaster);
+
+								return (
+									<Marker
+										key={index}
+										position={{
+											lat: parseInt(d.latitude),
+											lng: parseInt(d.longitude),
+										}}
+										clickable
+										icon={{
+											url: imageName,
+											scaledSize:
+												new window.google.maps.Size(
+													50,
+													50
+												),
+										}}
+										// options={{ icon: <VolcanIcon /> }}
+										onClick={(event) => {
+											map.panTo({
+												lat: parseFloat(d.latitude),
+												lng: parseFloat(d.longitude),
+											});
+											setSelectedDesastre(d);
+										}}
+									>
+										<Image
+											src={InondationIcon}
+											alt="icon"
+										/>
+									</Marker>
+								);
+							})}
 					</GoogleMap>
 
 					{setselectedDesastre ? (
