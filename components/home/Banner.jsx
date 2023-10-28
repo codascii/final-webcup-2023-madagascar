@@ -40,11 +40,11 @@ const Banner = () => {
                     <span className="d3 mb-0 text-white">Rester Informer</span>
                     <span className="d3 text-white">
                       des <span className="theme">catastrophes naturelles</span> grace à{" "}
-                      <span className="theme2">L'Intéligence Artificiel</span>
+                      <span className="theme2">L&apos;Intéligence Artificiel</span>
                     </span>
                     <p className="text-white">
-                    Grâce à des modèles prédictifs avancés, il est capable d'identifier et 
-                    d'alerter d'une catastrophe imminente jusqu'à 4 heures à l'avance, 
+                    Grâce à des modèles prédictifs avancés, il est capable d&apos;identifier et 
+                    d&apos;alerter d&apos;une catastrophe imminente jusqu&apos;à 4 heures à l&apos;avance, 
                     donnant une chance cruciale aux communautés de se préparer et de se protéger.
                     </p>
                     <div className="btg__grp">
@@ -60,7 +60,7 @@ const Banner = () => {
                             play_arrow
                           </i>
                         </span>
-                        <span>Je regarde la vidéo d'intro</span>
+                        <span>Je regarde la vidéo d&apos;intro</span>
                       </button>
                     </div>
                   </div>
