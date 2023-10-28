@@ -17,14 +17,10 @@ const AboutAIFive = () => {
             <div className="about__content">
               <div className="section__header">
                 <h2 className="wow fadeInUp" data-wow-duration="2s">
-                  Revolutionizing industries with cutting-edge AI technology
+                L'Indian Ocean Institut
                 </h2>
                 <p className="wow fadeInUp" data-wow-duration="2.5s">
-                  Artificial intelligence, or AI, is the simulation of human
-                  intelligence in machines that are programmed to think and
-                  learn. The field of AI research began in the 1950s and has
-                  since evolved to encompass a wide range of technologies and
-                  applications.
+                Au cours des quatre dernières décennies, le monde a connu une augmentation alarmante des catastrophes naturelles. Depuis 2012, chaque année, en moyenne, 700 événements destructeurs touchent notre planète. Inondations, tremblements de terre, tsunamis, éruptions volcaniques, méga-feux, tempêtes, ouragans, typhons, cyclones... la liste est longue et les conséquences dévastatrices.
                 </p>
               </div>
               <ul
@@ -37,11 +33,10 @@ const AboutAIFive = () => {
                   </span>
                   <span className="content">
                     <span className="texthead">
-                      The Most Personalized Object Detection
+                    Innovation à la pointe
                     </span>
                     <span>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
+                    L'Indian Ocean Institute mène la voie avec une IA révolutionnaire qui prédit les catastrophes naturelles.
                     </span>
                   </span>
                 </li>
@@ -51,11 +46,10 @@ const AboutAIFive = () => {
                   </span>
                   <span className="content">
                     <span className="texthead">
-                      We Create The Most Realistic AI
+                    Au service de la communauté
                     </span>
                     <span>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
+                    L'Institut s'engage à protéger les vies grâce à la technologie et à l'information.
                     </span>
                   </span>
                 </li>
@@ -65,17 +59,16 @@ const AboutAIFive = () => {
                   </span>
                   <span className="content">
                     <span className="texthead">
-                      Innovative Machine Learning Products
+                    Science au service de la sécurité
                     </span>
                     <span>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
+                    L'Institut allie recherche de pointe et engagement communautaire pour un avenir plus sûr.
                     </span>
                   </span>
                 </li>
               </ul>
               <Link href="/about-five" className="cmn--btn">
-                <span>Read More</span>
+                <span>Nous contactez</span>
               </Link>
             </div>
           </div>

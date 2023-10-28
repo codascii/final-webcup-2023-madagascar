@@ -3,7 +3,8 @@ import SmallBanner from "../common/SmallBanner";
 
 const Banner = () => {
   return (
-    <SmallBanner title="About us - Style 02">
+    <SmallBanner title="Algorithme Intelligent de Prévision des Catastrophes Naturelles (AIPCN)
+    ">
       {/* Breadcrumb */}
       <Breadcrumb
         breadcrumbs={[

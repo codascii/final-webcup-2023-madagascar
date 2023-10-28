@@ -48,7 +48,7 @@ const EfectiveThree = () => {
                 <div className="efect__data__iems">
                   <div className="icons icons2">2</div>
                   <div className="content">
-                    <h5>Data Stored</h5>
+                    <h5>Recherche et Analyse</h5>
                     <p>
                       The integration of AI and ML is leading to the creation of
                       intelligent systems that can automate tasks, improve

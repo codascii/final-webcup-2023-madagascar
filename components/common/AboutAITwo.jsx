@@ -17,15 +17,10 @@ const AboutAITwo = () => {
             <div className="about__content">
               <div className="section__header">
                 <h2 className="wow fadeInUp" data-wow-duration="2s">
-                  We offer professional AI & ML solutions for humans
+                Algorithme Intelligent de Prévision des Catastrophes Naturelles (AIPCN)
                 </h2>
                 <p className="wow fadeInUp" data-wow-duration="2.2s">
-                  Artificial intelligence (AI) is perceiving, synthesizing, and
-                  inferring information—demonstrated by , as opposed to
-                  intelligence displayed by n and . Example tasks in which this
-                  is done include speech recognition, computer vision,
-                  translation between (natural) languages, as well as other
-                  mappings of inputs. The of defines artificial intelligence as:
+                L'Indian Ocean Institut est fier de présenter l'AIPCN, un algorithme révolutionnaire basé sur l'intelligence artificielle. En utilisant une combinaison de données provenant de sismomètres, satellites, ballons météorologiques et d'autres capteurs stratégiquement placés autour du globe, l'AIPCN analyse en temps réel les variations et anomalies. Grâce à des modèles prédictifs avancés, il est capable d'identifier et d'alerter d'une catastrophe imminente jusqu'à 4 heures à l'avance, donnant une chance cruciale aux communautés de se préparer et de se protéger
                 </p>
               </div>
               <div
@@ -34,8 +29,8 @@ const AboutAITwo = () => {
               >
                 <div className="pro__items">
                   <div className="pro__head">
-                    <span className="title">Customer satisfaction</span>
-                    <span className="point">80%</span>
+                    <span className="title">Apprentissage Continue</span>
+                    <span className="point">99%</span>
                   </div>
                   <div className="progress">
                     <div className="progress-value"></div>
@@ -44,7 +39,7 @@ const AboutAITwo = () => {
                 <div className="pro__items">
                   <div className="pro__head">
                     <span className="title">Performance</span>
-                    <span className="point">90%</span>
+                    <span className="point">100%</span>
                   </div>
                   <div className="progress">
                     <div className="progress-value"></div>
@@ -52,8 +47,8 @@ const AboutAITwo = () => {
                 </div>
                 <div className="pro__items">
                   <div className="pro__head">
-                    <span className="title">Marketing</span>
-                    <span className="point">70%</span>
+                    <span className="title">Prise de Décision Autonome</span>
+                    <span className="point">100%</span>
                   </div>
                   <div className="progress">
                     <div className="progress-value"></div>
@@ -61,8 +56,8 @@ const AboutAITwo = () => {
                 </div>
                 <div className="pro__items">
                   <div className="pro__head">
-                    <span className="title">Privacy</span>
-                    <span className="point">85%</span>
+                    <span className="title">Adaptabilité </span>
+                    <span className="point">100%</span>
                   </div>
                   <div className="progress">
                     <div className="progress-value"></div>

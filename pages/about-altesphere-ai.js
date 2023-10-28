@@ -3,6 +3,7 @@ import AboutAITwo from "@/components/common/AboutAITwo";
 import EfectiveTwo from "@/components/common/EfectiveTwo";
 import QualifiedTwo from "@/components/common/QualifiedTwo";
 import TestimonialTwo from "@/components/common/TestimonialTwo";
+import Feature from "@/components/home/Feature";
 import Newsletter from "@/components/homeThree/Newsletter";
 
 export default function AboutTwo() {
@@ -14,8 +15,10 @@ export default function AboutTwo() {
 			{/*AboutAITwo Section */}
 			<AboutAITwo />
 
-			{/*EfectiveTwo Section */}
-			<EfectiveTwo />
+			
+			{/* Feature section */}
+			<Feature />
+
 
 			{/*TestimonialTwo Section */}
 			<TestimonialTwo />

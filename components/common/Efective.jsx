@@ -58,7 +58,7 @@ const Efective = () => {
                     <Image src={datastored} alt="icon" />
                   </div>
                   <div className="content">
-                    <h5>Data Stored</h5>
+                    <h5>Recherche et Analyse</h5>
                     <p>
                       The integration of AI and ML is leading to the creation of
                       intelligent systems that can automate tasks, improve

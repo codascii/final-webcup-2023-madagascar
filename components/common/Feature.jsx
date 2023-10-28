@@ -19,10 +19,9 @@ const Feature = () => {
           className="section__header section__center pb__60 wow fadeInUp"
           data-wow-duration="2s"
         >
-          <h2>How It’s Work</h2>
+          <h2>Pionnier de l'excellence en Prédiction de Catastrophes</h2>
           <p>
-            AI is the broader concept of machines being able to carry out tasks
-            in a way that would normally require human intelligence.
+          Combinant une collecte rigoureuse de données avec des algorithmes avancés, cette IA est un pilier de préparation face aux défis imprévisibles de la nature.
           </p>
         </div>
         {/* Section header */}
@@ -32,10 +31,9 @@ const Feature = () => {
             <div className="feature__component__work feature__work__align">
               <Link href="/" className="feature__work__items">
                 <div className="content">
-                  <h5>Data Generated</h5>
+                  <h5>Tests rigoureux</h5>
                   <p>
-                    The integration of AI and ML is leading to the creation
-                    of...
+                  Chaque prédiction, testée pour une précision maximale...
                   </p>
                 </div>
                 <div className="icon">
@@ -44,10 +42,9 @@ const Feature = () => {
               </Link>
               <div className="feature__work__items">
                 <div className="content">
-                  <h5>Data Processing</h5>
+                  <h5>Codage avancé</h5>
                   <p>
-                    The integration of AI and ML is leading to the creation
-                    of...
+                  Des algorithmes conçus pour anticiper les catastrophes...
                   </p>
                 </div>
                 <div className="icon">
@@ -70,10 +67,9 @@ const Feature = () => {
                   <Image src={stored} alt="icon" />
                 </div>
                 <div className="content">
-                  <h5>Data Stored</h5>
+                  <h5>Recherche et Analyse</h5>
                   <p>
-                    The integration of AI and ML is leading to the creation
-                    of...
+                  Des années de données naturelles pour alimenter l'IA...
                   </p>
                 </div>
               </div>
@@ -82,10 +78,9 @@ const Feature = () => {
                   <Image src={solution} alt="icon" />
                 </div>
                 <div className="content">
-                  <h5>Solutions</h5>
+                  <h5>Sécurité globale</h5>
                   <p>
-                    The integration of AI and ML is leading to the creation
-                    of...
+                  L'IA pour un monde plus sûr face aux calamités...
                   </p>
                 </div>
               </div>

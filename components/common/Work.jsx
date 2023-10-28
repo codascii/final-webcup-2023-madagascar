@@ -50,7 +50,7 @@ const Work = () => {
                 <Image src={stored} alt="icon" />
               </div>
               <div className="content">
-                <h5>Data Stored</h5>
+                <h5>Recherche et Analysed</h5>
                 <p>
                   The integration of AI and ML is leading to the creation of...
                 </p>
