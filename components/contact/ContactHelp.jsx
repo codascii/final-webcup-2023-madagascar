@@ -17,8 +17,8 @@ const ContactHelp = () => {
               </div>
               <div className="cont">
                 <h5>Call Now</h5>
-                <Link href="#">0269123456</Link>
-                <Link href="#">0269123498</Link>
+                <Link href="tel:0269123456">0269123456</Link>
+                <Link href="tel:0269123498">0269123498</Link>
               </div>
             </div>
           </div>
@@ -29,8 +29,8 @@ const ContactHelp = () => {
               </div>
               <div className="cont">
                 <h5>Email Address</h5>
-                <Link href="3">contact@Altesphere.com</Link>
-                <Link href="#">Sarah@Altesphere.com</Link>
+                <Link href="mailto:contact@altesphere.com">contact@altesphere.com</Link>
+                <Link href="mailto:sarah@altesphere.com">sarah@altesphere.com</Link>
               </div>
             </div>
           </div>
@@ -41,8 +41,8 @@ const ContactHelp = () => {
               </div>
               <div className="cont">
                 <h5>Localisation</h5>
-                <Link href="#">17 rue Kaweni</Link>
-                <Link href="#">97600 Mayotte</Link>
+                <Link href="javascript:void(0)" >17 rue Kaweni</Link>
+                <Link href="javascript:void(0)">97600 Mayotte</Link>
               </div>
             </div>
           </div>
