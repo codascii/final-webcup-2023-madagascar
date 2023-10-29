@@ -58,7 +58,7 @@ const TestimonialTwo = ({ clss = "bg__white" }) => {
                       </div>
                     </div>
                   </div>
-                  <div className="testimonial__items titems__two">
+                  {/* <div className="testimonial__items titems__two">
                     <div className="star__grp">
                       <i className="material-symbols-outlined">star</i>
                       <i className="material-symbols-outlined">star</i>
@@ -126,11 +126,11 @@ const TestimonialTwo = ({ clss = "bg__white" }) => {
                         <span className="designation">Louis Vuitton</span>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </Slider>
 
-                {/* Slider Navigation */}
-                <SliderNavigation sliderRef={sliderRef} />
+                {/* Slider Navigation 
+                <SliderNavigation sliderRef={sliderRef} /> */}
               </div>
             </div>
           </div>
