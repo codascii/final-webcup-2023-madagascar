@@ -152,10 +152,11 @@ const FooterThree = ({ clss = "footer__section__four" }) => {
               </Link>
                Designed By{" "}
               <Link
-                href="https://themeforest.net/user/pixelaxis"
+                href="https://houmadev.com"
+target="_blank"
                 className="theme"
               >
-                 HoumaDev RAIV
+                 Houmadev
               </Link>
             </p>
             <ul className="footer__bottom__link">

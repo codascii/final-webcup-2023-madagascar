@@ -164,12 +164,13 @@ const FooterFour = () => {
               <Link href="/" className="intellicon">
               Altesphere AI
               </Link>
-               .Conçus par{" "}
+                Developed by{" "}
               <Link
-                href="https://themeforest.net/user/pixelaxis"
+                href="https://houmadev.com"
+target="_blank"
                 className="theme"
               >
-                 HoumaDev RAIV
+                 Houmadev
               </Link>
             </p>
             <ul className="footer__bottom__link">
