@@ -40,23 +40,22 @@ const Footer = () => {
                     <h4>liens rapides</h4>
                   </div>
                   <div className="widget__link">
-                    <Link href="/about" className="link">
+                  <Link href="/" className="link">
+                    Accueil
+                    </Link>
+                    <Link href="/maps" className="link">
+                      Voir les prédictions
+                    </Link>
+                    <Link href="/natural-desastre" className="link">
+                    Catastrophes naturelles
+                    </Link>
+                    <Link href="/about-altesphere-ai" className="link">
                     À propos de nous
                     </Link>
                     <Link href="/" className="link">
-                    Accueil
                     </Link>
-                    <Link href="/" className="link">
-                
-                    </Link>
-                    <Link href="/blocks-working" className="link">
-                      How it&#39;s Works
-                    </Link>
-                    <Link href="/pricing" className="link">
-                      Pricing Plan
-                    </Link>
-                    <Link href="/maps" className="link">
-                      Map
+                    <Link href="/contact" className="link">
+                      contact
                     </Link>
                   </div>
                 </div>
@@ -67,19 +66,19 @@ const Footer = () => {
                     <h4>liens utils</h4>
                   </div>
                   <div className="widget__link">
-                    <Link href="https://renass.unistra.fr/fr/zones/" className="link">
+                    <Link href="https://renass.unistra.fr/fr/zones/" target="_blank" className="link">
                     Renass
                     </Link>
-                    <Link href="https://meteofrance.com/" className="link">
+                    <Link href="https://meteofrance.com/" target="_blank" className="link">
                     MeteoFrance
                     </Link>
-                    <Link href="https://www.cycloneoi.com/archives-blog/le-coin-expert/l-ecmwf-a-l-heure-de-l-intelligence-artificielle-et-du-machine-learning.html" className="link">
+                    <Link href="https://www.cycloneoi.com/archives-blog/le-coin-expert/l-ecmwf-a-l-heure-de-l-intelligence-artificielle-et-du-machine-learning.html" target="_blank" className="link">
                     CEPMMT
                     </Link>
-                    <Link href="https://www.accuweather.com/fr/mg/antananarivo/227088/weather-forecast/227088" className="link">
+                    <Link href="https://www.accuweather.com/fr/mg/antananarivo/227088/weather-forecast/227088" target="_blank" className="link">
                     AccuWeather
                     </Link>
-                    <Link href="https://www.wunderground.com/" className="link">
+                    <Link href="https://www.wunderground.com/" target="_blank" className="link">
                     Weather Underground 
                     </Link>
                   </div>
@@ -91,23 +90,23 @@ const Footer = () => {
                     <h4>Contactez nous</h4>
                   </div>
                   <div className="widget__link">
-                    <Link href="/" className="footer__contact__items">
+                    <Link href="tel:0269123456" className="footer__contact__items">
                       <span className="icon">
-                        <i className="material-symbols-outlined">AU</i>
+                        <i className="material-symbols-outlined">T</i>
                       </span>
                       <span className="fcontact__content">0269123456</span>
                     </Link>
-                    <Link href="/" className="footer__contact__items">
+                    <Link href="mailto:contact@altesphere.com" target="_blank" className="footer__contact__items">
                       <span className="icon icontwo">
                         <i className="material-symbols-outlined">
                          M
                         </i>
                       </span>
                       <span className="fcontact__content">
-                        contact@AlteSphere.com
+                        contact@alteSphere.com
                       </span>
                     </Link>
-                    <Link href="/" className="footer__contact__items">
+                    <Link href="javascript:void(0)" className="footer__contact__items">
                       <span className="icon iconthree">
                         <span className="material-symbols-outlined">
                           pin_drop

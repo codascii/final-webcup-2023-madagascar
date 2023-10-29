@@ -63,23 +63,23 @@ const FooterThree = ({ clss = "footer__section__four" }) => {
                     <h4>Contact</h4>
                   </div>
                   <div className="widget__link">
-                    <Link href="/" className="footer__contact__items">
+                    <Link href="tel:0269123456" className="footer__contact__items">
                       <span className="icon">
                         <i className="material-symbols-outlined">add_call</i>
                       </span>
                       <span className="fcontact__content">0269123456</span>
                     </Link>
-                    <Link href="/" className="footer__contact__items">
+                    <Link href="mailto:contact@altesphere.com" className="footer__contact__items">
                       <span className="icon icontwo">
                         <i className="material-symbols-outlined">
                           mark_as_unread
                         </i>
                       </span>
                       <span className="fcontact__content">
-                      contact@AlteSphere.com
+                      contact@alteSphere.com
                       </span>
                     </Link>
-                    <Link href="/" className="footer__contact__items">
+                    <Link href="javascript:void(0)" className="footer__contact__items">
                       <span className="icon iconthree">
                         <span className="material-symbols-outlined">
                           pin_drop

@@ -163,7 +163,7 @@ const NavItems = ({ active, setActive }) => {
           className="d-flex"
           // onClick={() => handleShowDropdown("pages")}
         >
-          <span>Catastrophe naturelles</span>
+          <span>Catastrophes naturelles</span>
           <span className="icons">
             {/* <i className="material-symbols-outlined">expand_more</i> */}
           </span>
