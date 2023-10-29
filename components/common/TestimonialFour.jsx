@@ -63,10 +63,7 @@ const TestimonialFour = () => {
                       </div>
                     </div>
                     <p>
-                      Our company has seen significant improvement in efficiency
-                      and accuracy since implementing AI and ML technology in
-                      our processes. The use of AI and ML has helped us stay
-                      ahead of the competition and stay on the cutting...
+                    L'IA développée par l'Indian Ocean Institute a révolutionné notre approche de la détection des tremblements de terre. Sa précision et sa capacité à analyser rapidement des données complexes nous permettent de mieux comprendre et anticiper les mouvements tectoniques, offrant ainsi une chance inestimable de sauver des vies.
                     </p>
                   </div>
                   <div className="client__history">
@@ -74,8 +71,8 @@ const TestimonialFour = () => {
                       <Image src={jenny} alt="img" />
                     </div>
                     <div className="content">
-                      <h5>Jenny Wilson</h5>
-                      <span className="designation">Starbucks</span>
+                      <h5>Dr. Ananya Verma</h5>
+                      <span className="designation">Spécialiste en Sismologie</span>
                     </div>
                   </div>
                 </div>
@@ -96,10 +93,7 @@ const TestimonialFour = () => {
                       </div>
                     </div>
                     <p>
-                      Our company has seen significant improvement in efficiency
-                      and accuracy since implementing AI and ML technology in
-                      our processes. The use of AI and ML has helped us stay
-                      ahead of the competition and stay on the cutting...
+                    J'ai travaillé sur les modèles climatiques pendant la majeure partie de ma carrière, et je n'ai jamais vu un outil aussi puissant que cette IA. Elle capture les nuances et les tendances de manière que nous, les humains, pourrions mettre des années à comprendre. C'est un game-changer pour la prévision des ouragans et des typhons..
                     </p>
                   </div>
                   <div className="client__history">
@@ -107,8 +101,8 @@ const TestimonialFour = () => {
                       <Image src={jenny} alt="img" />
                     </div>
                     <div className="content">
-                      <h5>Jenny Wilson</h5>
-                      <span className="designation">Starbucks</span>
+                      <h5>Dr. Rajan Iyer</h5>
+                      <span className="designation">Expert en Climatologie</span>
                     </div>
                   </div>
                 </div>
@@ -129,10 +123,7 @@ const TestimonialFour = () => {
                       </div>
                     </div>
                     <p>
-                      Our company has seen significant improvement in efficiency
-                      and accuracy since implementing AI and ML technology in
-                      our processes. The use of AI and ML has helped us stay
-                      ahead of the competition and stay on the cutting...
+                    Étudier les volcans est notoirement imprévisible. Cependant, avec l'introduction de l'IA de l'Institut, nous avons pu prédire avec précision plusieurs éruptions majeures, permettant des évacuations en temps opportun. La technologie est véritablement transformative pour notre domaine....
                     </p>
                   </div>
                   <div className="client__history">
@@ -140,8 +131,8 @@ const TestimonialFour = () => {
                       <Image src={jenny} alt="img" />
                     </div>
                     <div className="content">
-                      <h5>Jenny Wilson</h5>
-                      <span className="designation">Starbucks</span>
+                      <h5>Dr. Lakshmi Patel</h5>
+                      <span className="designation">Volcanologue</span>
                     </div>
                   </div>
                 </div>
@@ -162,10 +153,7 @@ const TestimonialFour = () => {
                       </div>
                     </div>
                     <p>
-                      Our company has seen significant improvement in efficiency
-                      and accuracy since implementing AI and ML technology in
-                      our processes. The use of AI and ML has helped us stay
-                      ahead of the competition and stay on the cutting...
+                    Les inondations peuvent causer des ravages dévastateurs. Grâce à l'IA de l'Indian Ocean Institute, nous sommes désormais en mesure d'anticiper les crues soudaines et les inondations côtières avec une précision remarquable. Elle a véritablement renforcé nos efforts pour protéger les communautés vulnérables..
                     </p>
                   </div>
                   <div className="client__history">
@@ -173,8 +161,8 @@ const TestimonialFour = () => {
                       <Image src={jenny} alt="img" />
                     </div>
                     <div className="content">
-                      <h5>Jenny Wilson</h5>
-                      <span className="designation">Starbucks</span>
+                      <h5>Dr. Sameer Joshi</h5>
+                      <span className="designation">Hydrologue</span>
                     </div>
                   </div>
                 </div>
