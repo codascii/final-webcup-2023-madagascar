@@ -44,8 +44,7 @@ const Banner = () => {
                     </span>
                     <p className="text-white">
                     Grâce à des modèles prédictifs avancés, il est capable d&apos;identifier et 
-                    d&apos;alerter d&apos;une catastrophe imminente jusqu&apos;à 4 heures à l&apos;avance, 
-                    donnant une chance cruciale aux communautés de se préparer et de se protéger.
+                    d&apos;alerter d&apos;une catastrophe imminente jusqu&apos;à 4 heures à l&apos;avance.
                     </p>
                     <div className="btg__grp">
                       <Link href="/maps" className="cmn--btn">
