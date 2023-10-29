@@ -5,7 +5,7 @@ import Feature from "@/components/common/Feature";
 import PlanFour from "@/components/common/PlanFour";
 import Porfessional from "@/components/common/Porfessional";
 import TestimonialFour from "@/components/common/TestimonialFour";
-import FooterThree from "@/components/footer/FooterThree";
+import Footer from "@/components/footer/Footer";
 import NavBar from "@/components/navBar/NavBar";
 
 export default function AboutFive() {
@@ -26,17 +26,17 @@ export default function AboutFive() {
 			{/*Feature section */}
 			<Feature />
 
-			{/*Porfessional section */}
-			<Porfessional clss="bgsection" />
+			{/*Porfessional section 
+			<Porfessional clss="bgsection" /> */}
 
-			{/*PlanFour section */}
-			<PlanFour />
+			{/*PlanFour section 
+			<PlanFour /> */}
 
-			{/*Brither section */}
-			<Brither />
+			{/*Brither section 
+			<Brither /> */}
 
 			{/*FooterThree section */}
-			<FooterThree clss="footer__section__five" />
+			<Footer clss="footer__section__five" />
 		</>
 	);
 }

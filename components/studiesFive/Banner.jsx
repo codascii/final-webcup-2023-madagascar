@@ -4,14 +4,14 @@ import SmallBanner from "../common/SmallBanner";
 const Banner = () => {
   return (
     <SmallBanner title="Case Studies - Style 05">
-      {/* Breadcrumb */}
+      {/* Breadcrumb 
       <Breadcrumb
         breadcrumbs={[
           ["Home", "/"],
           ["Case Studies", "/"],
           ["Style 05", "/"],
         ]}
-      />
+      /> */}
     </SmallBanner>
   );
 };

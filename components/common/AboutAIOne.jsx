@@ -46,8 +46,8 @@ const AboutAIOne = () => {
                   <span>Innovation constante</span>
                 </li>
               </ul>
-              <Link href="/about" className="cmn--btn">
-                <span>Read More</span>
+              <Link href="/about-institut" className="cmn--btn">
+                <span>En savoir plus</span>
               </Link>
             </div>
           </div>

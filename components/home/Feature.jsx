@@ -25,9 +25,9 @@ const Feature = () => {
           <p className="pb__32">
           "L'Indian Ocean Institute se distingue par sa fusion de technologies de pointe au service de la prévision des catastrophes. Alliant sismomètres, satellites, bouées océaniques et capteurs volcaniques, l'Institut tire parti de chaque source de données pour alimenter son IA.
           </p>
-          <Link href="/service-details" className="cmn--btn border__btn">
+          {/* <Link href="/service-details" className="cmn--btn border__btn">
             <span>Get Started</span>
-          </Link>
+          </Link> */}
         </div>
         {/* Section header */}
         <div className="row g-5 justify-content-center align-items-center">
@@ -44,7 +44,7 @@ const Feature = () => {
                 <div className="content">
                   <h4>Sismomètres Avancés</h4>
                   <p>
-                  Des capteurs spécialisés pour détecter les moindres mouvements tectoniques, fournissant des données en temps réel à l'IA...
+                  Des capteurs spécialisés pour détecter les moindres mouvements tectoniques, fournissant des données en temps réel.
                   </p>
                 </div>
               </div>
@@ -58,7 +58,7 @@ const Feature = () => {
                 <div className="content">
                   <h4>Satellites de Surveillance Climatique</h4>
                   <p>
-                  Des satellites équipés de capteurs pour surveiller les changements climatiques, les formations de cyclones et...
+                  Des satellites équipés de capteurs pour surveiller les changements climatiques, les formations de cyclones etc
                   </p>
                 </div>
               </div>
@@ -72,7 +72,7 @@ const Feature = () => {
                 <div className="content">
                   <h4>Réseau de Bouées Océaniques</h4>
                   <p>
-                  Des bouées déployées dans l'océan pour détecter les variations de niveau d'eau, aidant à..
+                  Des bouées déployées dans l'océan pour détecter les variations de niveau d'eau.
                   </p>
                 </div>
               </div>
@@ -97,7 +97,7 @@ const Feature = () => {
                 <div className="content">
                   <h4>Algorithmes d'Apprentissage Profond</h4>
                   <p>
-                  Des algorithmes qui analysent constamment des milliards de données pour détecter les modèles et..
+                  Des algorithmes qui analysent constamment des milliards de données pour détecter la moindre annomalie.
                   </p>
                 </div>
               </div>
@@ -111,7 +111,7 @@ const Feature = () => {
                 <div className="content">
                   <h4>Capteurs Volcaniques</h4>
                   <p>
-                  Des dispositifs placés à proximité des volcans actifs pour surveiller leur activité et prédire les éruptions imminentes...
+                  Des dispositifs placés à proximité des volcans pour surveiller leur activité et prédire les éruptions imminentes.
                   </p>
                 </div>
               </div>
@@ -125,7 +125,7 @@ const Feature = () => {
                 <div className="content">
                   <h4>Système d'Alerte Intégré</h4>
                   <p>
-                  Une technologie qui reçoit des prédictions de l'IA et envoie automatiquement des alertes aux autorités et..
+                  Une technologie qui reçoit des prédictions de l'IA et envoie automatiquement des alertes.
                   </p>
                 </div>
               </div>
