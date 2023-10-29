@@ -55,7 +55,7 @@ const Testimonial = () => {
                 className="section__header pb__60 wow fadeInUp"
                 data-wow-duration="2s"
               >
-                <h2>What people say about our support and services</h2>
+                <h2>Ce que les gens disent de nos services</h2>
               </div>
               <div className="testimonial__wrap__wided position-relative z-1">
                 <Slider {...settings} ref={sliderRef}>

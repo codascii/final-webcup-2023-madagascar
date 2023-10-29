@@ -11,21 +11,21 @@ const LeftSide = () => {
         {/* Details */}
         <Details />
 
-        {/* Describtion Reviews */}
+        {/* Describtion Reviews 
         <DescribtionReviews />
       </div>
       <div className="machine__learning__box pt-4">
-        {/* More Details */}
-        <MoreDetails />
+        {/* More Details 
+        <MoreDetails /> */}
 
         {/* Socila */}
         <Socila />
       </div>
-      <div className="write__review__wrap">
+      {/* <div className="write__review__wrap">
         <h4 className="title">Write a Review</h4>
-        {/* Review Write Form */}
+        {/* Review Write Form 
         <ReviewWriteForm />
-      </div>
+      </div> */}
     </div>
   );
 };
