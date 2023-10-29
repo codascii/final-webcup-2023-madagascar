@@ -17,6 +17,11 @@ import j4 from "/public/img/testimonial/j4.png";
 import j5 from "/public/img/testimonial/j5.png";
 import j6 from "/public/img/testimonial/j6.png";
 import jenny from "/public/img/testimonial/jenny.png";
+import Ananya from "/public/img/testimonial/Ananya.png";
+import rajan from "/public/img/testimonial/rajan.png";
+import patel from "/public/img/testimonial/patel.png";
+import joshi from "/public/img/testimonial/joshi.png";
+
 
 // slick css
 import "slick-carousel/slick/slick-theme.css";
@@ -68,7 +73,7 @@ const TestimonialFour = () => {
                   </div>
                   <div className="client__history">
                     <div className="thumb">
-                      <Image src={jenny} alt="img" />
+                      <Image src={Ananya} alt="img" />
                     </div>
                     <div className="content">
                       <h5>Dr. Ananya Verma</h5>
@@ -98,7 +103,7 @@ const TestimonialFour = () => {
                   </div>
                   <div className="client__history">
                     <div className="thumb">
-                      <Image src={jenny} alt="img" />
+                      <Image src={rajan} alt="img" />
                     </div>
                     <div className="content">
                       <h5>Dr. Rajan Iyer</h5>
@@ -128,7 +133,7 @@ const TestimonialFour = () => {
                   </div>
                   <div className="client__history">
                     <div className="thumb">
-                      <Image src={jenny} alt="img" />
+                      <Image src={patel} alt="img" />
                     </div>
                     <div className="content">
                       <h5>Dr. Lakshmi Patel</h5>
@@ -158,7 +163,7 @@ const TestimonialFour = () => {
                   </div>
                   <div className="client__history">
                     <div className="thumb">
-                      <Image src={jenny} alt="img" />
+                      <Image src={joshi} alt="img" />
                     </div>
                     <div className="content">
                       <h5>Dr. Sameer Joshi</h5>
@@ -178,15 +183,10 @@ const TestimonialFour = () => {
               >
                 <h2>Témoignages des scientifiques de l'Indian Ocean Institut sur les avantages et la précision de l'IA</h2>
                 <p className="pb__32">
-                  AI refers to the ability of a computer system to perform tasks
-                  that would typically require human intelligence, such as
-                  understanding natural language, recognizing objects and
-                  patterns in images, and making predictions based on data.
+                L'Indian Ocean Institute, pionnier dans le domaine de la recherche sur les catastrophes naturelles, a reçu des éloges sans précédent de la part de ses éminents scientifiques pour son intelligence artificielle révolutionnaire. Des experts renommés dans des domaines aussi variés que la sismologie, la climatologie, la volcanologie et l'hydrologie ont témoigné de la puissance transformative de cette technologie. 
                 </p>
                 <p>
-                  Machine learning is a subset of AI that involves the
-                  development of algorithms and statistical models that enable
-                  its performance on a task over...
+                Ces témoignages soulignent non seulement la précision remarquable de l'IA, mais aussi son potentiel à sauver des vies en anticipant des événements naturels majeurs. Grâce à cette innovation, l'Institut renforce sa position de leader mondial en matière de prévention et de gestion des catastrophes naturelles...
                 </p>
               </div>
               <div className="all__user">
