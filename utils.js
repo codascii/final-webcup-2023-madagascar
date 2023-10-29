@@ -15,7 +15,10 @@ export const postDisaster = async (data) => {
 	const collectionRef = collection(db, "disasters");
 
 	data.forEach(async (payload) => {
-		const docRef = await addDoc(collectionRef, payload);
+		const docRef = await addDoc(collectionRef, {
+			...payload,
+			timestamp: serverTimestamp(),
+		});
 		console.log("The new ID is: " + docRef.id);
 	});
 };
@@ -41,6 +44,10 @@ export function getImageUrl(type) {
 				"https://dorade-shops-content.s3.eu-north-1.amazonaws.com/markers-icon/feu.gif";
 			break;
 		case "Ouragan ":
+			imageName =
+				"https://dorade-shops-content.s3.eu-north-1.amazonaws.com/markers-icon/tempete.gif";
+			break;
+		case "Ouragan":
 			imageName =
 				"https://dorade-shops-content.s3.eu-north-1.amazonaws.com/markers-icon/tempete.gif";
 			break;

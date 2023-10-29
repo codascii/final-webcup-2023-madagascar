@@ -2,8 +2,10 @@ import { useCallback } from "react";
 
 import Image from "next/image";
 import { getImageUrl } from "@/utils";
+import alertImage from "/public/img/markers/alerte.gif";
 
-const LeftNav = ({ disastres, map }) => {
+const LeftNav = ({ disastres, map, desastreHistory }) => {
+
 	const handleAlertClick = useCallback(
 		(value) => {
 			map.panTo({
@@ -18,16 +20,26 @@ const LeftNav = ({ disastres, map }) => {
 		<div className="left-nav">
 			<div
 				style={{
-					backgroundColor: "#4acace",
+					// backgroundColor: "#4acace",
 					padding: "10px 20px",
+					textAlign: 'center'
 				}}
 			>
-				<p style={{ color: "white", fontSize: 12 }}>
-					Prédictions des catastrophes natuelles imminent...
+				<Image
+					src={alertImage}
+					alt={"Alerte"}
+					width={150}
+					height={150}
+					// className="desastre-info-icon"
+				/>
+				<p style={{ fontWeight: 'bold', color: 'red', borderBottom: '1px solid #555555', paddingBottom: 10}}>
+					Alerte imminent !
 				</p>
+				{/* {JSON.stringify(desastreHistory)} */}
 			</div>
-			{disastres.length > 0
-				? disastres.map((d) => {
+			<div className="desastre-list" style={{overflowY: 'scroll'}}>
+			{desastreHistory.length > 0
+				? desastreHistory.map((d) => {
 						let imageName = getImageUrl(d.type_disaster);
 
 						return (
@@ -55,7 +67,7 @@ const LeftNav = ({ disastres, map }) => {
 							</div>
 						);
 				  })
-				: null}
+				: null}</div>
 		</div>
 	);
 };
