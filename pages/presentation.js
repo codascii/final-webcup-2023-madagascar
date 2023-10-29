@@ -10,7 +10,7 @@ import Feature from "@/components/home/Feature";
 import Newsletter from "@/components/home/Newsletter";
 import NavBar from "@/components/navBar/NavBar";
 
-export default function Home() {
+export default function Presentation() {
 	return (
 		<>
 			{/* NavBar section */}
@@ -49,6 +49,6 @@ export default function Home() {
 	);
 }
 
-Home.getLayout = function getLayout(page) {
+Presentation.getLayout = function getLayout(page) {
 	return <>{page}</>;
 };
