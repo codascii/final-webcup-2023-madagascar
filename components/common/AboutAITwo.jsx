@@ -64,13 +64,13 @@ const AboutAITwo = () => {
                   </div>
                 </div>
               </div>
-              <Link
+              {/* <Link
                 href="/about-two"
                 className="cmn--btn wow fadeInUp"
                 data-wow-duration="2.6"
               >
                 <span>Read More</span>
-              </Link>
+              </Link> */}
             </div>
           </div>
           {/* about content */}

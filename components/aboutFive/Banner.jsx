@@ -4,7 +4,7 @@ import SmallBanner from "../common/SmallBanner";
 const Banner = () => {
   return (
     <SmallBanner title="Indian Ocean Institut">
-      {/* Breadcrumb */}
+      {/* Breadcrumb 
       <Breadcrumb
         breadcrumbs={[
           ["Home", "/"],
@@ -12,7 +12,7 @@ const Banner = () => {
           ["About us", "/"],
           ["Style 05", "/"],
         ]}
-      />
+      /> */}
     </SmallBanner>
   );
 };

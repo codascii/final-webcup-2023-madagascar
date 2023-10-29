@@ -38,7 +38,7 @@ const Newsletter = () => {
                     <span>S'enregistrer</span>
                   </button>
                 </form>
-                <div className="social__part">
+                {/* <div className="social__part">
                   <div className="follow__btn">
                     <Link href="/">
                       <span>Follow us</span>
@@ -79,7 +79,7 @@ const Newsletter = () => {
                       </Link>
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
             {/* col grid */}

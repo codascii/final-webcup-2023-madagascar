@@ -4,6 +4,7 @@ import { useRef } from "react";
 import Slider from "react-slick";
 import caserobot from "/public/img/bog-capabilities/caserobot.png";
 import efect_cross from "/public/img/elements/efect-cross.png";
+import blabla from "/public/img/elements/3dots-elements.png";
 import efect_cross2 from "/public/img/elements/efect-cross2.png";
 import efect_rount from "/public/img/elements/efect-rount.png";
 import efecttablet1 from "/public/img/elements/efecttablet1.png";
@@ -189,7 +190,7 @@ const TestimonialFour = () => {
                 Ces témoignages soulignent non seulement la précision remarquable de l'IA, mais aussi son potentiel à sauver des vies en anticipant des événements naturels majeurs. Grâce à cette innovation, l'Institut renforce sa position de leader mondial en matière de prévention et de gestion des catastrophes naturelles...
                 </p>
               </div>
-              <div className="all__user">
+              {/* <div className="all__user">
                 <Link href="/" className="user">
                   <Image src={j6} alt="user" />
                 </Link>
@@ -211,7 +212,7 @@ const TestimonialFour = () => {
                 <Link href="/" className="user">
                   <Image src={icons} alt="user" />
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* col grid */}
@@ -235,7 +236,7 @@ const TestimonialFour = () => {
         <Image src={efect_rount} alt="img" />
       </div>
       <div className="testi__robot">
-        <Image src={caserobot} alt="img" className="img-fluid" />
+        <Image src={blabla} alt="img" className="img-fluid" />
       </div>
       <div className="testi__tablet">
         <Image src={efecttablet1} alt="img" />

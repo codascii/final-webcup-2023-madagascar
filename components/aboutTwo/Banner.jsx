@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <SmallBanner title="Algorithme Intelligent de Prévision des Catastrophes Naturelles (AIPCN)
     ">
-      {/* Breadcrumb */}
+      {/* Breadcrumb
       <Breadcrumb
         breadcrumbs={[
           ["Home", "/"],
@@ -13,7 +13,7 @@ const Banner = () => {
           ["About us", "/"],
           ["Style 02", "/"],
         ]}
-      />
+      /> */}
     </SmallBanner>
   );
 };

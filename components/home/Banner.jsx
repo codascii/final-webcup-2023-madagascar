@@ -22,7 +22,7 @@ const Banner = () => {
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="ufoPEtcnkaQ"
+        videoId="Q3qWFx3rfms"
         onClose={() => setOpen(false)}
       />
 
@@ -60,7 +60,7 @@ const Banner = () => {
                             play_arrow
                           </i>
                         </span>
-                        <span>Je regarde la vidéo d&apos;intro</span>
+                        <span>Je regarde une vidéo d&apos;intro</span>
                       </button>
                     </div>
                   </div>

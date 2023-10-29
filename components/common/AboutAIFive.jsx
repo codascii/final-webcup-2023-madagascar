@@ -67,8 +67,8 @@ const AboutAIFive = () => {
                   </span>
                 </li>
               </ul>
-              <Link href="/about-five" className="cmn--btn">
-                <span>Nous contactez</span>
+              <Link href="/contact" className="cmn--btn">
+                <span>Nous contacter</span>
               </Link>
             </div>
           </div>

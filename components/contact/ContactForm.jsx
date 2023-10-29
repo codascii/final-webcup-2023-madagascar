@@ -53,11 +53,13 @@ const ContactForm = () => {
                     <label id="country">Pays</label>
                     <div className="select-wrapper">
                       <select>
-                        <option value="1">Ville...</option>
-                        <option value="1">....</option>
-                        <option value="1">....</option>
-                        <option value="1">....</option>
-                        <option value="1">....</option>
+                        <option value="1">Pays</option>
+                        <option value="1">Mayotte</option>
+                        <option value="1">La Reunion</option>
+                        <option value="1">Madagascar</option>
+                        <option value="1">Maurice</option>
+                        <option value="1">Rodrigues</option>
+                        <option value="1">Comores</option>
                       </select>
                     </div>
                   </div>
