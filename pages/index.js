@@ -108,7 +108,7 @@ const InnerMapMenu = () => {
 	return (
 		<div className="inner-map-menu-container">
 			<div>
-				<Link href="/maps">Accueil</Link>
+				<Link href="/presentation">Présentation du site</Link>
 			</div>
 			<div>
 				<Link href="/natural-desastre">Catastrophe naturelles</Link>

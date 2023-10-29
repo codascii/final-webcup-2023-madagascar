@@ -1,4 +1,29 @@
+import { useCallback, useState } from "react";
+
 const ContactForm = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phoneNumber, setPhoneNumber] = useState('');
+  const [message, setMessage] = useState('');
+  
+
+  const handleSubmit = useCallback((event) => {
+    event.preventDefault();
+    fetch('http://api-beta.houmadev.com/test/webcup-contact', {
+      method: 'POST',
+      headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({name,email,phoneNumber,message}).then(() => {
+      setName('')
+      setEmail('')
+      setMessage('')
+      setPhoneNumber('')
+    })
+    })
+  }, [name, message, email,phoneNumber])
+
   return (
     <section className="contact__section bg__white pt-120 pb-120">
       <div className="container">
@@ -11,7 +36,7 @@ const ContactForm = () => {
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div className="form_area">
-              <form id="form">
+              <form id="form" onSubmit={handleSubmit}>
                 <div className="row g-4">
                   <div className="col-lg-6">
                     <div className="form-control">
@@ -21,8 +46,10 @@ const ContactForm = () => {
                         id="Name"
                         placeholder="Enter Your Mane..."
                         required
+                        value={name}
+                        onChange={e => setName(e.target.value)}
                       />
-                      <small>Message d'erreur</small>
+                      <small>{"Message d'erreur"}</small>
                     </div>
                   </div>
                   <div className="col-lg-6">
@@ -33,8 +60,10 @@ const ContactForm = () => {
                         id="semail"
                         placeholder="Enter Your Email..."
                         required
+                        value={email}
+                        onChange={e => setEmail(e.target.value)}
                       />
-                      <small>Message d'erreur</small>
+                      <small>{"Message d'erreur"}</small>
                     </div>
                   </div>
                   <div className="col-lg-6">
@@ -45,8 +74,10 @@ const ContactForm = () => {
                         id="phone"
                         placeholder="Enter Your Number..."
                         required
+                        value={phoneNumber}
+                        onChange={e => setPhoneNumber(e.target.value)}
                       />
-                      <small>Message d'erreur</small>
+                      <small>{"Message d'erreur"}</small>
                     </div>
                   </div>
                   <div className="col-lg-6">
@@ -71,9 +102,11 @@ const ContactForm = () => {
                         id="message"
                         cols="10"
                         rows="5"
+                        value={message}
+                        onChange={e => setMessage(e.target.value)}
                         placeholder="Enter Your Message..."
                       ></textarea>
-                      <small>Message d'erreur</small>
+                      <small>{"Message d'erreur"}</small>
                     </div>
                   </div>
                 </div>

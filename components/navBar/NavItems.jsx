@@ -54,7 +54,7 @@ const NavItems = ({ active, setActive }) => {
       {/* comp */}
       <li onClick={() => handleShowDropdown("home")}>
         <Link href="/" className="d-flex">
-          <span>Accueil</span>
+          <span>Cartographie des prédictions</span>
           <span className="icons">
             {/* <i className="material-symbols-outlined">expand_more</i> */}
           </span>
@@ -149,8 +149,8 @@ const NavItems = ({ active, setActive }) => {
       </li>
 
       <li>
-        <Link href="/maps" className="d-flex">
-          <span>Map</span>
+        <Link href="/presentation" className="d-flex">
+          <span>Présentation du site</span>
           <span className="icons">
             {/* <i className="material-symbols-outlined">expand_more</i> */}
           </span>
